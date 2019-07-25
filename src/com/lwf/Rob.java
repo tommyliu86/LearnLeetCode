@@ -1,6 +1,5 @@
 package com.lwf;
 
-import sun.management.Sensor;
 
 /**
  * author Administrator
