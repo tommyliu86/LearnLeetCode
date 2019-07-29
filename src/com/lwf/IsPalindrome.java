@@ -56,17 +56,17 @@ public class IsPalindrome {
             slow=slow.next;
             temp.next=pre;
             pre=temp;
+        }else{
+            slow=slow.next;
         }
-
         fast=pre;
-        slow=slow.next;
         do{
             if (slow.val!=fast.val){
                 return false;
             }
             slow=slow.next;
             fast=fast.next  ;
-        }while (slow.next!=null);
+        }while (slow!=null);
         return true;
     }
 }
