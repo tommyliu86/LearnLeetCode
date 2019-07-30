@@ -5,7 +5,8 @@ import java.util.Stack;
 /**
  * author Administrator
  * time 2019-07-29
- * see @link md/234.md
+ * see {@link /md/234.md}
+ *
  */
 public class IsPalindrome {
 
@@ -56,7 +57,9 @@ public class IsPalindrome {
             slow=slow.next;
             temp.next=pre;
             pre=temp;
+            head.next=slow;
         }else{
+            head.next=slow;
             slow=slow.next;
         }
         fast=pre;
