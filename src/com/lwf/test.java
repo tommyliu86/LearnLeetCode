@@ -12,6 +12,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class test {
     public static void main(String[] args) {
+        
         AtomicInteger atomicInteger=new AtomicInteger(0);
         atomicInteger.getAndIncrement();
         AtomicReference<String> reference=new AtomicReference<>();
