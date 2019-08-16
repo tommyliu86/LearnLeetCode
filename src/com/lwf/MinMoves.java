@@ -23,4 +23,15 @@ public class MinMoves {
         return count;
 
     }
+    public int minMoves1(int[] nums){
+
+        int count=0; //移动的步数
+        int minValue=Integer.MAX_VALUE;
+        for (int i = 0; i <nums.length ; i++) {
+            count+=nums[i];
+            minValue=Math.min(minValue,nums[i]);
+        }
+        return count-minValue*nums.length;
+
+    }
 }
