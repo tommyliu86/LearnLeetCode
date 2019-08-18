@@ -6,6 +6,9 @@ package com.lwf;
  * {@link 463.md}
  */
 public class IslandPerimeter {
+    public static void main(String[] args) {
+        Thread.yield();
+    }
     public int islandPerimeter(int[][] grid) {
         int count=0;
         for (int i = 0; i < grid.length; i++) {
