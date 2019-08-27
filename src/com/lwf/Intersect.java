@@ -6,7 +6,8 @@ package com.lwf;
  */
 public class Intersect {
     public Node intersect(Node quadTree1, Node quadTree2) {
-        if (quadTree1.isLeaf){
+        if (quadTree1==null|| quadTree1.isLeaf){
+            if (quadTree1==null) return quadTree2;
             if (quadTree1.val==true){
                 return quadTree1;
             }
@@ -14,7 +15,8 @@ public class Intersect {
                 return quadTree2;
             }
         }else{
-            if (quadTree2.isLeaf){
+            if (quadTree2==null ||quadTree2.isLeaf){
+                if (quadTree2==null ) return quadTree1;
                 if (quadTree2.val==true){
                     return quadTree2;
                 }else{
