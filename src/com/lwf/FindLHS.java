@@ -9,25 +9,35 @@ import java.util.Arrays;
 public class FindLHS {
     public int findLHS(int[] nums) {
         Arrays.sort(nums);
-        int min=0;
+        int first=0;
         int next=0;
         int max=0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i]==nums[min]){
+            if (nums[i]==nums[first]||nums[i]==nums[next]){
                 continue;
-            }else  if (nums[i]==nums[min]+1){
+            }else  if (nums[i]==nums[first]+1&&first==next){
                 next=i;
             }else{
-                if (nums[min]==nums[next]-1){
-                    max=Math.max(max,i-min+1);
-                    min=next;
-                    next=i;
-                }
-                else{
-                    min=i;
+                if (first==next){
+                    first=next=i;
+                }else {
+                    max=Math.max(max,i-first);
+                    if (nums[i]==nums[next]+1){
+                        first=next;
+                        next=i;
+                    }
+                    else{
+                        first=next=i;
+                    }
+
                 }
             }
         }
-        return max;
+        if (first==next){
+            return max;
+        }else   {
+            return Math.max(max,nums.length-first);
+        }
+
     }
 }
