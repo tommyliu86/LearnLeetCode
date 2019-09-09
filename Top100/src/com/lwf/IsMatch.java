@@ -27,7 +27,7 @@ public class IsMatch {
                         stack.add(first);
                     }
                     else{
-                        first
+
                     }
                 }
             }
