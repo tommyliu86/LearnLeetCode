@@ -2,117 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Top100/md/169.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/md/198.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/Rob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/AddDigits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/AddStrings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ArrangeCoins.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ArrayPairSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/AverageOfLevels.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/BinaryTreePaths.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CanConstruct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CanPlaceFlowers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CanWinNim.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CheckPerfectNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CheckRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Compress.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ConstructRectangle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ContainsDuplicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ContainsNearbyDuplicate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ConvertBST.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ConvertToBase7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ConvertToTitle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CountPrimes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/CountSegments.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/DeleteNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/DetectCapitalUse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/DiameterOfBinaryTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/DistributeCandies.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Fib.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindAnagrams.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindComplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindContentChildren.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindDisappearedNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindLHS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindLUSlength.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindMaxConsecutiveOnes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindNthDigit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindPairs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindRadius.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindRelativeRanks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindRestaurant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindTheDifference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindTilt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindUnsortedSubarray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FindWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FirstBadVersion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FirstUniqChar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/FizzBuzz.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/GetIntersectionNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/GetMinimumDifference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/GetSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/GuessGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/HammingDistance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/HammingWeight.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Intersect.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Intersection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Intersection2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/InvertTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsAnagram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsHappy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsIsomorphic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsPerfectSquare.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsPowerOfFour.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsPowerOfThree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsPowerOfTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsSubTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IsUgly.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/IslandPerimeter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/JudgeSquareSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/LevelOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/LicenseKeyFormatting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/LongestPalindrome.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/LowestCommonAncestor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MajorityElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MatrixReshape.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MaxCount.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MaxDepth.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MaximumProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MergeTrees.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MinMoves.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MissingNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MoveZeroes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MyQueue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/MyStack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/NextGreaterElement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/NumArray.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/NumberOfArithmeticSlices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/NumberOfBoomerangs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/PathSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/PostOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Preorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReadBinaryWatch.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/RemoveElements.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/RepeatedSubstringPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseBits.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseStr.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseVowels.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ReverseWords.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Rob.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Rotate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/SumOfLeftLeaves.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ThirdMax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ToHex.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/TrailingZeroes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/Tree2str.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/TwoSum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/WordPattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/ZeroEvenOdd.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lwf/TOP100/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/GetIntersectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/GetIntersectionNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,48 +43,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/md/136.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="102">
-                <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/SingleNumber.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/md/141.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/HasCycle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -212,26 +66,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="-408">
+              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/md/169.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MajorityElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lwf/AddDigits.java">
+        <entry file="file://$PROJECT_DIR$/Top100/md/198.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="272">
+                <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/Rob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="158">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lwf/Rob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Stack.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lwf/GetIntersectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+            <state relative-caret-position="-444">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -273,10 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/md/599.md" />
-        <option value="$PROJECT_DIR$/src/com/lwf/FindRestaurant.java" />
-        <option value="$PROJECT_DIR$/md/605.md" />
-        <option value="$PROJECT_DIR$/src/com/lwf/CanPlaceFlowers.java" />
         <option value="$PROJECT_DIR$/md/606.md" />
         <option value="$PROJECT_DIR$/src/com/lwf/Tree2str.java" />
         <option value="$PROJECT_DIR$/md/617.md" />
@@ -324,6 +222,10 @@
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/etIntersectionNode.java" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/etIntersectionNode.java" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java" />
+        <option value="$PROJECT_DIR$/Top100/md/169.md" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MajorityElement.java" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/Rob.java" />
+        <option value="$PROJECT_DIR$/Top100/md/198.md" />
       </list>
     </option>
   </component>
@@ -371,6 +273,11 @@
             <path>
               <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,6 +285,30 @@
               <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lwf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Top100" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Top100" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TOP100" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -390,7 +321,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568304030301" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568307748412" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -401,6 +332,9 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.lwf" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.lwf" />
     </key>
@@ -543,7 +477,7 @@
       <workItem from="1567605377681" duration="6161000" />
       <workItem from="1568039006221" duration="4083000" />
       <workItem from="1568214581875" duration="5540000" />
-      <workItem from="1568301927809" duration="2073000" />
+      <workItem from="1568301927809" duration="6291000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -724,10 +658,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237033000" />
+    <option name="totallyTimeSpent" value="241251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.42553192" visible="true" weight="0.32983023" />
       <window_info id="Structure" order="1" sideWeight="0.5744681" side_tool="true" weight="0.32983023" />
@@ -744,9 +679,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46402586" visible="true" weight="0.3188406" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.46402586" visible="true" weight="0.23731884" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.53597414" side_tool="true" visible="true" weight="0.3188406" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.53597414" side_tool="true" visible="true" weight="0.23731884" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4995958" weight="0.32971016" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49474534" weight="0.32608697" />
@@ -837,116 +772,8 @@
     <MESSAGE value="理解题意再解题" />
     <option name="LAST_COMMIT_MESSAGE" value="理解题意再解题" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindNthDigit.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindAnagrams.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/Compress.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindDisappearedNumbers.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/RepeatedSubstringPattern.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindRadius.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindComplement.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindWords.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/lwf/TOP100/FindWords.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/CanPlaceFlowers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/606.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/FindLHS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/Tree2str.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/md/617.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/MergeTrees.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/MergeTrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
@@ -963,7 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/MaximumProduct.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/MaximumProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
@@ -980,7 +807,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/JudgeSquareSum.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/JudgeSquareSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="21" selection-start-line="16" selection-start-column="7" selection-end-line="25" selection-end-column="21" />
@@ -997,7 +824,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/IsSubTree.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/IsSubTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
@@ -1007,7 +834,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/AverageOfLevels.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/AverageOfLevels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
@@ -1112,7 +939,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/TOP100/LongestPalindrome.java">
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/LongestPalindrome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
@@ -1323,17 +1150,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="19" column="48" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lwf/AddDigits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/GetIntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-444">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/md/169.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lwf/Rob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/Rob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/md/198.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="272">
+            <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
