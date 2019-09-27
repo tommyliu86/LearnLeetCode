@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/33.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/34.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,30 +39,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/22.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="153">
-                <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/31.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="119">
-                <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/NextPermutation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -83,13 +59,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="-306">
+              <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/34.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="85">
+                <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
-                <element signature="e#374#375#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,8 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/etIntersectionNode.java" />
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/etIntersectionNode.java" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/GetIntersectionNode.java" />
         <option value="$PROJECT_DIR$/Top100/md/169.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/MajorityElement.java" />
@@ -222,6 +219,8 @@
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/NextPermutation.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/33.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Search.java" />
+        <option value="$PROJECT_DIR$/Top100/src/md/normal/34.md" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java" />
       </list>
     </option>
   </component>
@@ -323,7 +322,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569597263651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569598946780" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -364,26 +363,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Search">
+  <component name="RunManager" selected="Application.SearchRange">
     <configuration name="FindDisappearedNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.easy.FindDisappearedNumbers" />
       <module name="Top100" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lwf.TOP100.normal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lwf.LongestPalindrome" />
-      <module name="Top100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lwf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -417,6 +403,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.SearchRange" />
+      <module name="Top100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwf.TOP100.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.ThreeSum" />
       <module name="Top100" />
@@ -432,11 +431,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchRange" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.RemoveNthFromEnd" />
         <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.FindDisappearedNumbers" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +494,7 @@
       <workItem from="1568905117380" duration="3794000" />
       <workItem from="1568989608002" duration="13320000" />
       <workItem from="1569508728825" duration="6466000" />
-      <workItem from="1569594267126" duration="2847000" />
+      <workItem from="1569594267126" duration="4541000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -676,13 +675,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292298000" />
+    <option name="totallyTimeSpent" value="293992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42553192" visible="true" weight="0.2708165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.42553192" visible="true" weight="0.2708165" />
       <window_info id="Structure" order="1" sideWeight="0.5744681" side_tool="true" weight="0.32983023" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -691,15 +690,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4656427" visible="true" weight="0.24309392" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4656427" weight="0.24309392" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.68148744" weight="0.32596686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7057397" weight="0.19152854" />
+      <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4995958" weight="0.3296501" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70493126" visible="true" weight="0.19152854" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5343573" side_tool="true" visible="true" weight="0.24309392" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2950687" side_tool="true" visible="true" weight="0.19152854" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4987874" weight="0.3296501" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49474534" weight="0.32608697" />
@@ -799,24 +798,16 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/lwf/IsPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/easy/InvertTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="9" selection-start-column="6" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lwf/ReverseList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1124,10 +1115,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="-306">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/34.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="85">
+            <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
