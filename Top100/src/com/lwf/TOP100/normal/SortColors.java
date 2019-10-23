@@ -12,6 +12,10 @@ public class SortColors {
         new SortColors().sortColors(new int[]{2, 0, 2, 1, 1, 0});
     }
 
+    /**
+     * 选择排序算法
+     * @param nums
+     */
     public void sortColors(int[] nums) {
         int temp;
         for (int i = 1; i < nums.length; i++) {
