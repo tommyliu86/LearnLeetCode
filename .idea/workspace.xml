@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/78.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Exist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/79.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortColors.java" beforeDir="false" afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortColors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SortColors.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,27 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Merge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/62.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="221">
-                <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/64.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -106,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Subsets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
@@ -114,6 +91,27 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/79.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="136">
+                <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Exist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -173,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/HammingDistance.java" />
-        <option value="$PROJECT_DIR$/Top100/md/538.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/ConvertBST.java" />
         <option value="$PROJECT_DIR$/Top100/md/543.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/DiameterOfBinaryTree.java" />
@@ -224,6 +220,8 @@
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortColors.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/78.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Subsets.java" />
+        <option value="$PROJECT_DIR$/Top100/src/md/normal/79.md" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Exist.java" />
       </list>
     </option>
   </component>
@@ -325,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571842282175" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571844153799" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -506,7 +504,7 @@
       <workItem from="1571665951925" duration="7021000" />
       <workItem from="1571753447734" duration="5153000" />
       <workItem from="1571758828021" duration="626000" />
-      <workItem from="1571840038368" duration="2495000" />
+      <workItem from="1571840038368" duration="4019000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -694,7 +692,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="341478000" />
+    <option name="totallyTimeSpent" value="343002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -827,8 +825,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Top100/md/normal/2.md" />
-    <entry file="file://$PROJECT_DIR$/Top100/md/normal/5.md" />
     <entry file="file://$PROJECT_DIR$/Top100/md/normal/3.md" />
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/easy/FindUnsortedSubarray.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1260,6 +1256,23 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/79.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="136">
+            <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Exist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
