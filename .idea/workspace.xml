@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/InorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/94.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/96.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Top100/md/normal/79.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/md/normal/79.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +42,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="170">
-                <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+                <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -52,10 +50,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/96.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/InorderTraversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="27" column="20" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="27" selection-end-column="20" />
+            <state relative-caret-position="309">
+              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +79,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Gradle Kotlin DSL Settings" />
-        <option value="LeetCode" />
         <option value="Class" />
+        <option value="LeetCode" />
       </list>
     </option>
   </component>
@@ -91,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/DiameterOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/Top100/md/581.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/FindUnsortedSubarray.java" />
         <option value="$PROJECT_DIR$/Top100/md/617.md" />
@@ -142,6 +151,7 @@
         <option value="$PROJECT_DIR$/Top100/src/md/normal/79.md" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/94.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/InorderTraversal.java" />
+        <option value="$PROJECT_DIR$/Top100/src/md/normal/96.md" />
       </list>
     </option>
   </component>
@@ -243,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572273476371" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572275724860" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -251,7 +261,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.postfix.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -426,7 +436,7 @@
       <workItem from="1571758828021" duration="626000" />
       <workItem from="1571840038368" duration="4502000" />
       <workItem from="1571927314717" duration="947000" />
-      <workItem from="1572100002136" duration="5133000" />
+      <workItem from="1572100002136" duration="7164000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -614,7 +624,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="349565000" />
+    <option name="totallyTimeSpent" value="351596000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -635,7 +645,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4995958" weight="0.3296501" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" weight="0.20994475" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" visible="true" weight="0.20994475" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29830235" side_tool="true" weight="0.3130755" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4987874" weight="0.3296501" />
@@ -747,13 +757,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/easy/MergeTrees.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/AddTwoNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1178,23 +1181,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/InorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/94.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="170">
-            <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/InorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="27" column="20" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/96.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
