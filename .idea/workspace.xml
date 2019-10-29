@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/102.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LevelOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LevelOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +76,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LevelOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="104">
+              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+            <state relative-caret-position="119">
+              <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -324,7 +323,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572362354117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572363396940" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -508,7 +507,7 @@
       <workItem from="1571840038368" duration="4502000" />
       <workItem from="1571927314717" duration="947000" />
       <workItem from="1572100002136" duration="7992000" />
-      <workItem from="1572357969176" duration="4686000" />
+      <workItem from="1572357969176" duration="5404000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -696,14 +695,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357110000" />
+    <option name="totallyTimeSpent" value="357828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.42364532" visible="true" weight="0.32983023" />
-      <window_info id="Structure" order="1" sideWeight="0.5763547" side_tool="true" visible="true" weight="0.32983023" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5763547" side_tool="true" visible="true" weight="0.32983023" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -717,7 +716,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4995958" weight="0.3296501" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" visible="true" weight="0.25230202" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" visible="true" weight="0.25230202" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29830235" side_tool="true" weight="0.3130755" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4987874" weight="0.3296501" />
@@ -1259,15 +1258,15 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        <state relative-caret-position="119">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LevelOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        <state relative-caret-position="104">
+          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

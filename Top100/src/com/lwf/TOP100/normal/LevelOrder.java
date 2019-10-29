@@ -2,6 +2,7 @@ package com.lwf.TOP100.normal;
 
 
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -11,12 +12,31 @@ import java.util.Queue;
  * time 2019-10-29-23:13
  */
 public class LevelOrder {
+    /**
+     * 广度优先 BFS，此处难点在于想出如何统计当前层的节点个数，
+     * 一次while循环中利用当前队列的size来当做当前层的节点个数计数器，一层遍历完成后
+     * 刚好把下一层的所有节点都入队。完成了整个循环。
+     * @param root
+     * @return
+     */
     public List<List<Integer>> levelOrder(TreeNode root) {
+
         Queue<TreeNode> queue=new LinkedList<>();
-        TreeNode cur=root;
-        while (!queue.isEmpty()||cur!=null){
-            queue.add(cur);
+        queue.add(root);
+        List<List<Integer>> lists=new ArrayList<>();
+        if (root==null) return lists;
+        while (!queue.isEmpty()){
+         List<Integer> list=new ArrayList<>();
+            int levelCount=queue.size();
+            for (int i = 0; i < levelCount; i++) {
+                TreeNode node=queue.poll();
+                list.add(node.val);
+                if (node.left!=null)queue.add(node.left);
+                if(node.right!=null) queue.add(node.right);
+            }
+            lists.add(list);
 
         }
+        return lists;
     }
 }
