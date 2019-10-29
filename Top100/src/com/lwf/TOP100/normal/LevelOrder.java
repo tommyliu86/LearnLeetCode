@@ -39,4 +39,14 @@ public class LevelOrder {
         }
         return lists;
     }
+
+    /**
+     * 直接利用递归函数+level传递，实现list集合添加，
+     * @param root
+     * @return
+     */
+    public List<List<Integer>> levelOrder1(TreeNode root) {
+
+    }
+
 }
