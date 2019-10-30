@@ -46,6 +46,21 @@ public class LevelOrder {
      * @return
      */
     public List<List<Integer>> levelOrder1(TreeNode root) {
+    return recursive(root,0,new ArrayList<List<Integer>>());
+    }
+
+    List<List<Integer>> recursive(TreeNode node ,int level,List<List<Integer>> list){
+        if (node!=null){
+            if (list.size()<level+1){
+                list.add(level,new ArrayList<Integer>());
+            }
+            list.get(level).add(node.val);
+            recursive(node.left ,level+1,list);
+            recursive(node.right,level+1,list);
+
+        }
+
+        return list;
 
     }
 
