@@ -17,7 +17,7 @@ public class LRUCache {
      * @param args
      */
     public static void main(String[] args) {
-        LRUCache1 lruCache1 = new LRUCache1(2);
+        LRUCache2 lruCache1 = new LRUCache2(2);
         lruCache1.put(1, 1);
         lruCache1.put(2, 2);
         lruCache1.get(1);
@@ -28,7 +28,7 @@ public class LRUCache {
         lruCache1.get(3);
         lruCache1.get(4);
 
-        LRUCache1 lruCache2 = new LRUCache1(1);
+        LRUCache2 lruCache2 = new LRUCache2(1);
         lruCache2.put(2, 1);
 
         lruCache2.get(2);
@@ -161,6 +161,102 @@ class LRUCache1 {
                 cur.pre = tail;
                 tail = cur;
             }
+            map.put(key, cur);
+        }
+    }
+
+}
+
+/**
+ * 双向链表的head和tail在LRUCache1中进行了很多的null值判断，若使用两个虚拟节点作为首位，则可以避免null值判断，优化代码逻辑
+ * 执行效果不如Cache1，
+ */
+class LRUCache2 {
+    DNode head;
+    DNode tail;
+
+    class DNode {
+        public int val;
+        public int key;
+        public DNode pre;
+        public DNode post;
+
+        public DNode(int val, int key) {
+            this.val = val;
+            this.key = key;
+        }
+
+        public DNode() {
+        }
+    }
+
+    private void moveToTail(DNode cur) {
+        //remove
+        DNode pr = cur.pre;
+        DNode po = cur.post;
+
+        pr.post = po;
+
+
+        po.pre = pr;
+
+        cur.post = null;
+        cur.pre = null;
+        //add to tail
+
+
+        DNode stail = tail.pre;
+        stail.post = cur;
+        cur.pre = stail;
+        tail.pre = cur;
+        cur.post = tail;
+
+    }
+
+    Map<Integer, DNode> map;
+    Integer capacity;
+
+    public LRUCache2(int capacity) {
+        this.capacity = capacity;
+        map = new HashMap<>();
+        head = new DNode();
+        tail = new DNode();
+        head.post = tail;
+        tail.pre = head;
+    }
+
+    public int get(int key) {
+        if (map.containsKey(key)) {
+            moveToTail(map.get(key));
+            return map.get(key).val;
+        } else {
+            return -1;
+        }
+    }
+
+    public void put(int key, int value) {
+        if (map.containsKey(key)) { //put is refresh key,move to tail
+            DNode cur = map.get(key);
+            if (cur.val != value) {
+                cur.val = value;
+            }
+            moveToTail(cur);
+        } else {
+
+            if (map.size() >= capacity) {
+                DNode cur = head.post;
+                map.remove(cur.key);
+                head.post = cur.post;
+                cur.post.pre = head;
+
+            }
+            DNode cur = new DNode(value, key);
+            DNode stail = tail.pre;
+            stail.post = cur;
+            cur.pre = stail;
+            tail.pre = cur;
+            cur.post = tail;
+
             map.put(key, cur);
         }
     }
