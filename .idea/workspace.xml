@@ -2,7 +2,202 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/148.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/META-INF/LearnLeetCode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AddDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AddDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AddStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AddStrings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ArrangeCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ArrangeCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ArrayPairSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ArrayPairSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AverageOfLevels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/AverageOfLevels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/BinaryTreePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/BinaryTreePaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanConstruct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanConstruct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanPlaceFlowers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanPlaceFlowers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanWinNim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CanWinNim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CheckPerfectNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CheckPerfectNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CheckRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CheckRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Compress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Compress.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConstructRectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConstructRectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ContainsNearbyDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ContainsNearbyDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertToBase7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertToBase7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertToTitle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ConvertToTitle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CountPrimes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CountPrimes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CountSegments.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/CountSegments.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DeleteNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DeleteNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DetectCapitalUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DetectCapitalUse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DiameterOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DistributeCandies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/DistributeCandies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Fib.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Fib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindComplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindComplement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindContentChildren.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindContentChildren.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindDisappearedNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindDisappearedNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindLHS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindLHS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindLUSlength.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindLUSlength.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindMaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindMaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindNthDigit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindNthDigit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRadius.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRadius.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRelativeRanks.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRelativeRanks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRestaurant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindRestaurant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindTheDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindTheDifference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindTilt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindTilt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindUnsortedSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindUnsortedSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FindWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FirstBadVersion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FirstBadVersion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FirstUniqChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FirstUniqChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetIntersectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetIntersectionNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetMinimumDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetMinimumDifference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GetSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GuessGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/GuessGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/HammingDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/HammingDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/HammingWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/HammingWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersect$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersect$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersection2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Intersection2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/InvertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/InvertTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsHappy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsHappy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsIsomorphic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsIsomorphic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPerfectSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPerfectSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfFour.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfFour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfThree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfThree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsPowerOfTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsSubTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsSubTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsUgly.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IsUgly.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IslandPerimeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/IslandPerimeter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/JudgeSquareSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/JudgeSquareSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LicenseKeyFormatting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LicenseKeyFormatting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LowestCommonAncestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/LowestCommonAncestor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MatrixReshape.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MatrixReshape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaxCount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaxCount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaxDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaximumProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MaximumProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MergeTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MergeTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MinMoves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MinMoves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MoveZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NextGreaterElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NextGreaterElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumArray1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumArray1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumberOfArithmeticSlices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumberOfArithmeticSlices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumberOfBoomerangs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/NumberOfBoomerangs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PostOrder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PostOrder$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PostOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/PostOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Preorder$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Preorder$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Preorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Preorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReadBinaryWatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReadBinaryWatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/RemoveElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/RemoveElements.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/RepeatedSubstringPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/RepeatedSubstringPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseBits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseBits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseStr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseStr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseVowels.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseVowels.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ReverseWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Rob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Rob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Rotate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/SumOfLeftLeaves.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/SumOfLeftLeaves.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ThirdMax.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ThirdMax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ToHex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ToHex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TrailingZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TrailingZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Tree2str.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/Tree2str.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/WordPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/WordPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ZeroEvenOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/ZeroEvenOdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/wrong.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LearnLeetCode/com/lwf/wrong.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/META-INF/Top100.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ClimbStairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ClimbStairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ConvertBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ConvertBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/DiameterOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindDisappearedNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindDisappearedNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindMedianSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindMedianSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindUnsortedSubarray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/FindUnsortedSubarray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/GetIntersectionNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/GetIntersectionNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/HammingDistance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/HammingDistance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/HasCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/HasCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/InvertTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/InvertTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsSymmetric.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsSymmetric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsValid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/IsValid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MajorityElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MajorityElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxDepth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxDepth.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxProfit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxProfit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxSubArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MaxSubArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists$Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists$Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MergeTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MoveZeroes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/MoveZeroes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/PathSum$PathSum1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/PathSum$PathSum1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/PathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/PathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ReverseList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/ReverseList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/Rob.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/Rob.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/SingleNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/SingleNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/TowSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/TowSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/easy/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/AddTwoNumbers$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/AddTwoNumbers$ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/AddTwoNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/BuildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/BuildTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/CanJump.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/CanJump.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/CombinationSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/CombinationSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/DetectCycle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/DetectCycle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Exist.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Exist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Flatten.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Flatten.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/GenerateParenthesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/GenerateParenthesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/GroupAnagrams.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/GroupAnagrams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/InorderTraversal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/InorderTraversal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/IsValidBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/IsValidBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache1$DNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache1$DNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache2$DNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache2$DNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LRUCache2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LengthOfLongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LengthOfLongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LetterCombinations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LetterCombinations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LevelOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LevelOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LongestPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/LongestPalindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/MaxArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/MaxArea.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Merge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/MinPathSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/MinPathSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NextPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NextPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NumTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NumTrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Permute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Permute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/RemoveNthFromEnd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/RemoveNthFromEnd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Rotate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Rotate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SearchRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SearchRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SortColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/SortColors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/Subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/UniquePaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/UniquePaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/WordBreak.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/WordBreak.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +234,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/DetectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="855">
               <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,8 +247,20 @@
         <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/146.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/148.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,79 +268,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#243#244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/RemoveNthFromEnd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+            <state relative-caret-position="806">
+              <caret line="245" column="41" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="41" />
               <folding>
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
                 <element signature="class#LRUCache1#0" />
-                <element signature="class#LRUCache2#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
-              <folding>
-                <element signature="e#6454#6455#0" expanded="true" />
-                <element signature="e#6495#6496#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Deque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4743">
-              <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#19630#19631#0" expanded="true" />
-                <element signature="e#19658#19659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/AbstractList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="72" column="81" selection-start-line="72" selection-start-column="81" selection-end-line="72" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1938">
-              <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -141,7 +304,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/IsValidBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1156">
+            <state relative-caret-position="1292">
               <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
             </state>
           </provider>
@@ -154,6 +317,7 @@
       <list>
         <option value="Gradle Kotlin DSL Settings" />
         <option value="LeetCode" />
+        <option value="leetCode" />
         <option value="Class" />
       </list>
     </option>
@@ -175,8 +339,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Top100/src/md/normal/19.md" />
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/RemoveNthFromEnd.java" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/GenerateParenthesis.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/22.md" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/31.md" />
@@ -226,6 +388,8 @@
         <option value="$PROJECT_DIR$/Top100/src/md/normal/142.md" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/146.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java" />
+        <option value="$PROJECT_DIR$/Top100/src/md/normal/148.md" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortList.java" />
       </list>
     </option>
   </component>
@@ -249,11 +413,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="219" />
-    <option name="y" value="417" />
-    <option name="width" value="2268" />
-    <option name="height" value="1152" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -320,22 +483,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573226207647" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574214522552" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -517,6 +681,7 @@
       <workItem from="1572876532100" duration="4107000" />
       <workItem from="1572881302379" duration="6428000" />
       <workItem from="1573138098442" duration="11383000" />
+      <workItem from="1574210563590" duration="3636000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -704,13 +869,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386262000" />
+    <option name="totallyTimeSpent" value="389898000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4194831" weight="0.29911074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4194831" visible="true" weight="0.23832923" />
       <window_info id="Structure" order="1" sideWeight="0.5805169" side_tool="true" weight="0.29911074" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -839,40 +1004,10 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/MaxArea.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="12" selection-start-line="19" selection-start-column="7" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LongestPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/GroupAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding>
-            <element signature="method#groupAnagrams#0;class#GroupAnagrams#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/55.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -890,31 +1025,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2329">
-          <caret line="175" column="27" selection-start-line="175" selection-start-column="27" selection-end-line="175" selection-end-column="27" />
-          <folding>
-            <element signature="e#7337#7338#0" expanded="true" />
-            <element signature="e#7365#7366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="101" column="16" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Comparator.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Collections.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/DualPivotQuicksort.java" />
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LengthOfLongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1010,13 +1123,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5117">
-          <caret line="350" column="67" selection-start-line="350" selection-start-column="67" selection-end-line="350" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/Math.java" />
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Exist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -1103,24 +1210,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68391">
-          <caret line="4097" column="60" selection-start-line="4097" selection-start-column="56" selection-end-line="4097" selection-end-column="60" />
-          <folding>
-            <element signature="e#200691#200692#0" expanded="true" />
-            <element signature="e#200732#200733#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Arrays.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/BuildTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="833">
@@ -1190,59 +1281,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30447">
-          <caret line="1871" column="18" selection-start-line="1871" selection-start-column="18" selection-end-line="1871" selection-end-column="18" />
-          <folding>
-            <element signature="e#81254#81255#0" expanded="true" />
-            <element signature="e#81303#81304#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="109" column="11" selection-start-line="109" selection-start-column="11" selection-end-line="109" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
-          <folding>
-            <element signature="e#6336#6337#0" expanded="true" />
-            <element signature="e#6404#6405#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="72" column="81" selection-start-line="72" selection-start-column="81" selection-end-line="72" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/IsValidBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/AbstractList.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/List.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedHashMap.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Deque.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayDeque.java" />
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/DetectCycle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="855">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1250,62 +1300,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/146.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/IsValidBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#19630#19631#0" expanded="true" />
-            <element signature="e#19658#19659#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="203" column="17" selection-start-line="203" selection-start-column="17" selection-end-line="203" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="181" column="11" selection-start-line="181" selection-start-column="11" selection-end-line="181" selection-end-column="11" />
-          <folding>
-            <element signature="e#6454#6455#0" expanded="true" />
-            <element signature="e#6495#6496#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1292">
+          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="806">
+          <caret line="245" column="41" selection-start-line="245" selection-start-column="41" selection-end-line="245" selection-end-column="41" />
           <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
             <element signature="class#LRUCache1#0" />
-            <element signature="class#LRUCache2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/146.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/148.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/RemoveNthFromEnd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="7" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
