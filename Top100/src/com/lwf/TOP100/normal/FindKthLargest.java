@@ -61,9 +61,9 @@ public class FindKthLargest {
      * @param length
      */
     public void singleHeap(int[] nums,int length) {
-        //构建大根堆
+        //构建小根堆
 
-        for (int i = 1; i < length; i+=2) {
+        for (int i = 1; i < length; i++) {
             int cur=i;
             int parent=(cur-1)/2; //find the parent node
             while (parent>=0&&nums[cur]<nums[parent]){
