@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/207.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/208.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Top100/src/md/normal/215.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NumIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/NumIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/md/normal/208.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/md/normal/208.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,30 +40,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/NumIslands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/207.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/208.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -77,12 +52,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/215.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Trie.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
                 <element signature="e#1895#1896#0" expanded="true" />
               </folding>
             </state>
@@ -179,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SearchRange.java" />
-        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/CombinationSum.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/39.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Permute.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/46.md" />
@@ -230,6 +225,8 @@
         <option value="$PROJECT_DIR$/Top100/src/md/normal/207.md" />
         <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Trie.java" />
         <option value="$PROJECT_DIR$/Top100/src/md/normal/208.md" />
+        <option value="$PROJECT_DIR$/Top100/src/md/normal/215.md" />
+        <option value="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java" />
       </list>
     </option>
   </component>
@@ -253,9 +250,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="74" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1920" />
     <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -266,6 +264,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,18 +311,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="md" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LearnLeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LearnLeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Top100" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="md" type="462c0819:PsiDirectoryNode" />
+              <item name="normal" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574647631288" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574738642105" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -364,9 +370,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
+  <component name="RunManager" selected="Application.FindKthLargest">
     <configuration name="BuildTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.BuildTree" />
+      <module name="Top100" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwf.TOP100.normal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindKthLargest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.FindKthLargest" />
       <module name="Top100" />
       <extension name="coverage">
         <pattern>
@@ -404,19 +423,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePaths" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.UniquePaths" />
-      <module name="Top100" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lwf.TOP100.normal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lwf.TOP100.normal.WordBreak" />
       <module name="Top100" />
@@ -432,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindKthLargest" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.WordBreak" />
         <item itemvalue="Application.BuildTree" />
         <item itemvalue="Application.SortColors" />
-        <item itemvalue="Application.UniquePaths" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +522,8 @@
       <workItem from="1574210563590" duration="3726000" />
       <workItem from="1574297873617" duration="2997000" />
       <workItem from="1574384230249" duration="3043000" />
-      <workItem from="1574644474164" duration="2960000" />
+      <workItem from="1574644474164" duration="2994000" />
+      <workItem from="1574729360213" duration="6850000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -704,13 +711,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="398988000" />
+    <option name="totallyTimeSpent" value="405872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
+    <frame x="74" y="23" width="1920" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4194831" visible="true" weight="0.24938574" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4194831" visible="true" weight="0.22055675" />
       <window_info id="Structure" order="1" sideWeight="0.5805169" side_tool="true" weight="0.29911074" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -719,13 +726,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46240905" weight="0.35911602" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.67906225" weight="0.22099447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46240905" weight="0.35844472" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.67906225" visible="true" weight="0.36087486" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4995958" weight="0.3296501" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" visible="true" weight="0.23086269" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" weight="0.23086269" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29830235" side_tool="true" weight="0.3130755" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4987874" weight="0.3296501" />
@@ -839,30 +846,28 @@
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/64.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/75.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="102">
-            <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/SortColors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1132,6 +1137,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/NumIslands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/207.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Trie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1895#1896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2432">
@@ -1181,37 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/NumIslands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="55" column="72" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/207.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/Trie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1895#1896#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/208.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1219,6 +1225,23 @@
             <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/md/normal/215.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
         </state>
       </provider>
     </entry>
