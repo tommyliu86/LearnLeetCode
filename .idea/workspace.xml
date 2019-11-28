@@ -4,6 +4,7 @@
     <list default="true" id="0be1e691-c172-492f-b908-99dee04ea3de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/FindKthLargest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Top100/com/lwf/TOP100/normal/FindKthLargest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+            <state relative-caret-position="226">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -248,10 +249,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="75" />
-    <option name="y" value="45" />
-    <option name="width" value="1920" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
     <option name="height" value="963" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -262,7 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,13 +320,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574738666589" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574850571526" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/lwf" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -522,7 +522,8 @@
       <workItem from="1574384230249" duration="3043000" />
       <workItem from="1574644474164" duration="2994000" />
       <workItem from="1574729360213" duration="7130000" />
-      <workItem from="1574739767826" duration="1002000" />
+      <workItem from="1574739767826" duration="1043000" />
+      <workItem from="1574818381116" duration="4814000" />
     </task>
     <task id="LOCAL-00001" summary="at home leetcode day 1">
       <created>1563467662005</created>
@@ -710,13 +711,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="407154000" />
+    <option name="totallyTimeSpent" value="412009000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="963" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="963" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4194831" visible="true" weight="0.22358723" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4194831" visible="true" weight="0.22665848" />
       <window_info id="Structure" order="1" sideWeight="0.5805169" side_tool="true" weight="0.29911074" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -731,7 +732,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" sideWeight="0.4995958" weight="0.3296501" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" visible="true" weight="0.23086269" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.70169765" weight="0.23086269" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.29830235" side_tool="true" weight="0.3130755" />
       <window_info anchor="bottom" id="Problems" order="11" sideWeight="0.4987874" weight="0.3296501" />
@@ -847,21 +848,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
-          <line>22</line>
+          <line>33</line>
           <properties />
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
-          <line>35</line>
+          <line>24</line>
           <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java</url>
-          <line>26</line>
-          <properties />
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1239,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Top100/src/com/lwf/TOP100/normal/FindKthLargest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        <state relative-caret-position="226">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>

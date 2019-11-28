@@ -18,25 +18,23 @@ public class FindKthLargest {
     }
 
     public static void main(String[] args) {
-        new FindKthLargest().findKthLargest(new int[]{7,6,5,4,3,2,1},
-        5);
-        System.out.println("ok");
+
     }
     public int findKthLargest(int[] nums,int k){
 
-        createHeap(nums,k);
+        singleHeap(nums,k);
         for (int i = k; i < nums.length; i++) {
             if (nums[i]>nums[0]){
                 int temp =nums[0];
                 nums[0]=nums[i];
                 nums[i]=temp;
-                createHeap(nums,k);
+                singleHeap(nums,k);
             }
         }
         return nums[0];
     }
     public void createHeap(int[] nums,int length) {
-      //构建大根堆
+      //构建小根堆
 
         for (int i = 1; i < length; i+=2) {
             int left=i;
@@ -62,7 +60,6 @@ public class FindKthLargest {
      */
     public void singleHeap(int[] nums,int length) {
         //构建小根堆
-
         for (int i = 1; i < length; i++) {
             int cur=i;
             int parent=(cur-1)/2; //find the parent node
@@ -70,10 +67,26 @@ public class FindKthLargest {
                 int temp=nums[i];
                 nums[i]=nums[parent];
                 nums[parent]=temp;
+                int j=cur;
+               while (j*2+1<length){
+                    int left=j*2+1;
+                    int right=j*2+2;
+                    if (nums[j]>nums[left]||nums[j]>nums[right]){
+                            int min=nums[left]<nums[right]?left:right;
+                            int tem=nums[min];
+                            nums[min]=nums[j];
+                            nums[j]=tem;
+                            j=min;
+
+                    }else{
+                        break;
+                    }
+                }
                 cur=parent;
-                parent=(cur-1)/2; //swap cur and parent until root(0)
+                parent=(parent-1)/2; //swap cur and parent until root(0)
             }
         }
     }
+
 
 }
