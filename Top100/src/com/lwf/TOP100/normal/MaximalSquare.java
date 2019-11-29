@@ -48,6 +48,12 @@ public class MaximalSquare {
         chars[0]=new char[]{'1'};
         new MaximalSquare().dynamicProgram(chars);
     }
+
+    /**
+     * 动态规划方法
+     * @param matrix
+     * @return
+     */
     public int dynamicProgram(char[][] matrix) {
         int max=0;
         if (matrix==null||matrix.length==0) return max;
