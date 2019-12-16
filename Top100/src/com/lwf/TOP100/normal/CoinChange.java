@@ -47,6 +47,34 @@ public class CoinChange {
         return rtn == Integer.MAX_VALUE ? -1 : rtn;
     }
 
+    /**
+     * 动态规划，利用推导公式进行计算。
+     * @param coins
+     * @param amount
+     * @return
+     */
+
+    int dync(int[] coins, int amount) {
+        Arrays.sort(coins);
+        int[] mins = new int[amount + 1];
+        mins[0] = 0;
+        for (int i = 1; i < mins.length; i++) {
+            if (i < coins[0]) {
+                mins[i] = -1;
+            } else {
+                int min = Integer.MAX_VALUE;
+                for (int j = coins.length - 1; j >= 0; j--) {
+                    if (i - coins[j] >= 0 && mins[i - coins[j]] >= 0) {
+
+                        min = Math.min(mins[i - coins[j]] + 1, min);
+                    }
+                }
+                mins[i] = min == Integer.MAX_VALUE ? -1 : min;
+            }
+
+        }
+        return mins[amount];
+    }
 
 
 }
