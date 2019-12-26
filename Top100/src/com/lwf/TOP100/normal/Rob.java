@@ -12,6 +12,14 @@ public class Rob {
         int[] rtns=recursive(root);
         return Math.max(rtns[0],rtns[1]);
     }
+
+    /**
+     * 利用tree的递归，获取每个节点node的两个值，分别是用currnode.val 和不用。
+     * currnode[]=val+left[1]+right[1],max(left[])+max(right[]),当用val的时候，则是取left、right的不用时的值
+     * 该值表示不用当前节点的最大值，形成递归
+     * @param node
+     * @return
+     */
     int[] recursive(TreeNode node){
         if (node==null){
             return new int[]{0,0};
