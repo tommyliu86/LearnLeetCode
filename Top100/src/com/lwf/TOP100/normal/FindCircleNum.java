@@ -1,5 +1,8 @@
 package com.lwf.TOP100.normal;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Created with IntelliJ IDEA.
  * https://leetcode-cn.com/problems/number-of-provinces/
@@ -11,9 +14,45 @@ package com.lwf.TOP100.normal;
 public class FindCircleNum {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int[][] ins=new int[][]{new int[]{1,0,0,1},new int[]{0,1,1,0},new int[]{0,1,1,1},new int[]{1,0,1,1}};
+        int[][] ins = new int[][]{new int[]{1, 0, 0, 1}, new int[]{0, 1, 1, 0}, new int[]{0, 1, 1, 1}, new int[]{1, 0, 1, 1}};
         int circleNum = solution.findCircleNum(ins);
         System.out.println(circleNum);
+    }
+
+    static class bfs {
+        public int findCircleNum(int[][] isConnected) {
+            boolean[] mark = new boolean[isConnected.length];
+            int markCount = 0;
+            int num = 0;
+
+            Queue<Integer> queue = new LinkedList<>();
+            for (int i = 0; markCount < isConnected.length && i < isConnected.length; i++) {
+                if (mark[i]) {
+                    continue;
+                }
+                queue.offer(i);
+                while (!queue.isEmpty()) {
+
+                    Integer poll = queue.poll();
+                    if (mark[poll]){ //广度遍历有可能会导致 比较靠后的节点被放入队列两次，因此取出来之后，需要先进行一次判断。不然会导致markCount计数重复
+                        continue;
+                    }
+                    mark[poll] = true;
+                    markCount++;
+                    for (int j = 0; j < isConnected.length; j++) {
+                        if (mark[j]) {
+                            continue;
+                        }
+                        if (isConnected[poll][j] == 1) {
+                            queue.offer(j);
+                        }
+                    }
+                }
+                num++;
+            }
+            return num;
+        }
+
     }
 
     /**
@@ -24,31 +63,33 @@ public class FindCircleNum {
      * 4.在遍历过程中注意统计遍历到的节点个数做边界终止条件即可。
      */
     static class Solution {
-        Integer markCount=0;
+        Integer markCount = 0;
+
         public int findCircleNum(int[][] isConnected) {
-            boolean [] mark=new boolean[isConnected.length];
-            int num=0;
+            boolean[] mark = new boolean[isConnected.length];
+            int num = 0;
 
 
-            for (int i = 0; i < isConnected.length&&markCount<=isConnected.length; i++) {
-                if (mark[i]){
+            for (int i = 0; i < isConnected.length && markCount <= isConnected.length; i++) {
+                if (mark[i]) {
                     continue;
                 }
-                dfs(isConnected,i,mark);
+                dfs(isConnected, i, mark);
                 num++;
             }
             return num;
         }
-        private void dfs(int[][] isConnected,int curIndex,boolean[] mark){
-            mark[curIndex]=true;
+
+        private void dfs(int[][] isConnected, int curIndex, boolean[] mark) {
+            mark[curIndex] = true;
             markCount++;
-            for (int j = 0; j < isConnected.length&&markCount<=isConnected.length; j++) {
-                if (mark[j]){
+            for (int j = 0; j < isConnected.length && markCount <= isConnected.length; j++) {
+                if (mark[j]) {
                     continue;
                 }
-                if (isConnected[curIndex][j]==1){
+                if (isConnected[curIndex][j] == 1) {
 
-                    dfs(isConnected,j, mark);
+                    dfs(isConnected, j, mark);
                 }
             }
         }
