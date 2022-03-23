@@ -19,7 +19,18 @@ public class FindCircleNum {
         System.out.println(circleNum);
     }
 
+    /**
+     * 图的广度遍历方法，
+     * 1.使用队列辅助，把与当前节点直接连接的顶点放入队列，然后获取队列长度，依次出队当前队列长度的顶点，对取到的顶点进行处理，并入队顶点直接相关的顶点
+     * 2.使用额外一个数组作为辅助，对每个顶点进行记录是否已经遍历到，防止额外读取
+     * 3.使用额外常量保存遍历过的节点数量markCount，如果markCount=节点数量n，则终止流程。
+     */
     static class bfs {
+        /**
+         * 第一版本广度遍历BFS，mark的时机放在出队列时判断，由于出队列判断会导致入队时无法知道是否已经入队过，会导致队列中的节点重复。因此会增大时间复杂度。
+         * @param isConnected
+         * @return
+         */
         public int findCircleNum(int[][] isConnected) {
             boolean[] mark = new boolean[isConnected.length];
             int markCount = 0;
@@ -45,6 +56,44 @@ public class FindCircleNum {
                         }
                         if (isConnected[poll][j] == 1) {
                             queue.offer(j);
+                        }
+                    }
+                }
+                num++;
+            }
+            return num;
+        }
+
+        /**
+         * 第二版，把节点mark的时机放到入队列时判断，这样后续重复节点不会重复入队列。保证不会重复
+         * @param isConnected
+         * @return
+         */
+        public int findCircleNum1(int[][] isConnected) {
+            boolean[] mark = new boolean[isConnected.length];
+            int markCount = 0;
+            int num = 0;
+
+            Queue<Integer> queue = new LinkedList<>();
+            for (int i = 0; markCount < isConnected.length && i < isConnected.length; i++) {
+                if (mark[i]) {
+                    continue;
+                }
+                queue.offer(i);
+                mark[i] = true;
+                markCount++;
+                while (!queue.isEmpty()) {
+
+                    Integer poll = queue.poll();
+
+                    for (int j = 0; j < isConnected.length; j++) {
+                        if (mark[j]) {
+                            continue;
+                        }
+                        if (isConnected[poll][j] == 1) {
+                            queue.offer(j);
+                            mark[j] = true;
+                            markCount++;
                         }
                     }
                 }
