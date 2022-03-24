@@ -3,10 +3,16 @@ package com.lwf.TOP100.easy;
 /**
  * Created with IntelliJ IDEA.
  *
+ * https://leetcode-cn.com/problems/image-smoother/
+ * 661. 图片平滑器
  * @author: liuwenfei14
  * @date: 2022-03-24 09:30
  */
 public class ImageSmoother {
+    /**
+     * 前缀和方法--这种方法叫前缀和
+     * 预先进行数组处理，计算每个点的前缀和，利用前缀和快速求和。
+     */
     class Solution {
         public int[][] imageSmoother(int[][] img) {
             for (int i = 0; i < img.length; i++) {
