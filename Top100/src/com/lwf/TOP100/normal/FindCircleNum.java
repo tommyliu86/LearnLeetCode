@@ -13,9 +13,50 @@ import java.util.Queue;
  */
 public class FindCircleNum {
     /**
-    *
+    *并查集方法
      */
     static class unionFind {
+        public int findCircleNum(int[][] isConnected) {
+
+        }
+
+        /**
+         * 直接使用数组保存所有顶点的根节点。因此在find时可以直接找到根。
+         */
+        class QuickFind{
+            //保存每个顶点的根节点
+            int[] mark;
+
+            public QuickFind(int length){
+                mark=new int[length];
+                for (int i = 0; i < mark.length; i++) {
+                    mark[i]=i;
+                }
+            }
+            public int find(int index){
+                return mark[index];
+            }
+
+            /**
+             * union ，两个顶点要连接，如果这两个节点不是根节点，则选择使用一个的根节点a作为根节点，然后需要遍历所有节点，找到根节点为b的节点改为a
+             * @param x
+             * @param y
+             */
+            public  void union(int x ,int y){
+                int rootX = find(x);
+                int rootY = find(y);
+                if (rootX!=rootY){
+                    for (int i = 0; i < mark.length; i++) {
+                        if (mark[i]==rootY) {
+                            mark[i]=rootX;
+                        }
+                    }
+                }
+            }
+        }
+        class quickUnion{
+
+        }
 
     }
 
