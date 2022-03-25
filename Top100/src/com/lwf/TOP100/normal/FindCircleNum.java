@@ -17,7 +17,7 @@ public class FindCircleNum {
      */
     static class unionFind {
         public int findCircleNum(int[][] isConnected) {
-
+            return  0;
         }
 
         /**
