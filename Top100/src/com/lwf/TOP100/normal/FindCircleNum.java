@@ -13,48 +13,85 @@ import java.util.Queue;
  */
 public class FindCircleNum {
     /**
-    *并查集方法
+     * 并查集方法
      */
     static class unionFind {
         public int findCircleNum(int[][] isConnected) {
-            return  0;
+            return 0;
         }
 
         /**
          * 直接使用数组保存所有顶点的根节点。因此在find时可以直接找到根。
          */
-        class QuickFind{
-            //保存每个顶点的根节点
+        class QuickFind {
+            // 保存每个顶点的根节点
             int[] mark;
 
-            public QuickFind(int length){
-                mark=new int[length];
+            public QuickFind(int length) {
+                mark = new int[length];
                 for (int i = 0; i < mark.length; i++) {
-                    mark[i]=i;
+                    mark[i] = i;
                 }
             }
-            public int find(int index){
+
+            public int find(int index) {
                 return mark[index];
             }
 
             /**
              * union ，两个顶点要连接，如果这两个节点不是根节点，则选择使用一个的根节点a作为根节点，然后需要遍历所有节点，找到根节点为b的节点改为a
+             * 
              * @param x
              * @param y
              */
-            public  void union(int x ,int y){
+            public void union(int x, int y) {
                 int rootX = find(x);
                 int rootY = find(y);
-                if (rootX!=rootY){
+                if (rootX != rootY) {
                     for (int i = 0; i < mark.length; i++) {
-                        if (mark[i]==rootY) {
-                            mark[i]=rootX;
+                        if (mark[i] == rootY) {
+                            mark[i] = rootX;
                         }
                     }
                 }
             }
         }
-        class quickUnion{
+
+        class quickUnion {
+            int[] root;
+
+            public quickUnion(int count) {
+                root = new int[count];
+                for (int i = 0; i < root.length; i++) {
+                    root[i] = i;
+                }
+            }
+
+            /**
+             * 沿着路径一直找下去，找到父节点等于自身（根节点）为止。
+             * 
+             * @param index
+             * @return
+             */
+            public int find(int index) {
+                if (root[index] != index) {
+                    index = root[index];
+                }
+                return root[index];
+            }
+            /**
+             * 使用find方法找到根节点，然后把两个根节点做连接。union是快速的。查找要一直找到根才行。
+             * @param x
+             * @param y
+             */
+            public void union(int x, int y) {
+                int rootX = find(x);
+                int rootY = find(y);
+                if(rootX!=rootY){
+                    root[rootX]=rootY;
+                }
+
+            }
 
         }
 
@@ -69,6 +106,7 @@ public class FindCircleNum {
     static class bfs {
         /**
          * 第一版本广度遍历BFS，mark的时机放在出队列时判断，由于出队列判断会导致入队时无法知道是否已经入队过，会导致队列中的节点重复。因此会增大时间复杂度。
+         * 
          * @param isConnected
          * @return
          */
@@ -86,7 +124,7 @@ public class FindCircleNum {
                 while (!queue.isEmpty()) {
 
                     Integer poll = queue.poll();
-                    if (mark[poll]){ //广度遍历有可能会导致 比较靠后的节点被放入队列两次，因此取出来之后，需要先进行一次判断。不然会导致markCount计数重复
+                    if (mark[poll]) { // 广度遍历有可能会导致 比较靠后的节点被放入队列两次，因此取出来之后，需要先进行一次判断。不然会导致markCount计数重复
                         continue;
                     }
                     mark[poll] = true;
@@ -107,6 +145,7 @@ public class FindCircleNum {
 
         /**
          * 第二版，把节点mark的时机放到入队列时判断，这样后续重复节点不会重复入队列。保证不会重复
+         * 
          * @param isConnected
          * @return
          */
@@ -158,7 +197,6 @@ public class FindCircleNum {
         public int findCircleNum(int[][] isConnected) {
             boolean[] mark = new boolean[isConnected.length];
             int num = 0;
-
 
             for (int i = 0; i < isConnected.length && markCount <= isConnected.length; i++) {
                 if (mark[i]) {
