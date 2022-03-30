@@ -29,11 +29,9 @@ public class BusiestServers {
             for (int i = 0; i < k; i++) {
                 freeSet.add(i);
             }
-            PriorityQueue<int []> workQueue=new PriorityQueue<int[]>(Comparator.comparing(a->a[1]));
+            PriorityQueue<int []> workQueue=new PriorityQueue<int[]>((a,b)->a[1]-b[1]);
 
 
-            int max = 0;
-            List<Integer> maxIndex = new ArrayList<>();
             for (int i = 0; i < arrival.length; i++) {
 
 
@@ -54,12 +52,13 @@ public class BusiestServers {
                 freeSet.remove(ceiling);
                 serverCount[ceiling]=serverCount[ceiling]+1;
 
-                if (max == serverCount[ceiling]) {
-                    maxIndex.add(ceiling);
-                } else if (max < serverCount[ceiling]) {
-                    max = serverCount[ceiling];
-                    maxIndex.clear();
-                    maxIndex.add(ceiling);
+            }
+            int max = Arrays.stream(serverCount).max().getAsInt();
+            List<Integer> maxIndex = new ArrayList<>();
+            for (int i = 0; i < serverCount.length; i++) {
+
+                if (max == serverCount[i]) {
+                    maxIndex.add(i);
                 }
             }
             return maxIndex;
