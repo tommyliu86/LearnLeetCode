@@ -1,4 +1,4 @@
-package com.lwf.level1;
+package com.lwf.level1.arrays;
 
 import java.util.Arrays;
 import java.util.HashSet;

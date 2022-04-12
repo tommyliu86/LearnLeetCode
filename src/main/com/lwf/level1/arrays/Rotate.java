@@ -1,4 +1,4 @@
-package com.lwf.level1;
+package com.lwf.level1.arrays;
 
 /**
  * Created with IntelliJ IDEA.
