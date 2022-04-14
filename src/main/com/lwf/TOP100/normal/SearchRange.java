@@ -12,39 +12,41 @@ public class SearchRange {
         System.out.println(new SearchRange().searchRange(new int[]{1, 2, 3}, 2));
         System.out.println("hello world");
     }
+
     public int[] searchRange(int[] nums, int target) {
-        return binarySearch(nums,0,nums.length-1,target);
+        return binarySearch(nums, 0, nums.length - 1, target);
     }
-    int[] binarySearch(int[] nums,int left,int right,int target){
-        if (left>=right){
-            if (nums[left]==target){
+
+    int[] binarySearch(int[] nums, int left, int right, int target) {
+        if (left >= right) {
+            if (nums[left] == target) {
                 return getInts(nums, left, target);
-            }else{
-                return new int[]{-1,-1};
+            } else {
+                return new int[]{-1, -1};
             }
-        }else{
-            int mid=(left+right)/2;
-            if (nums[mid]==target){
+        } else {
+            int mid = (left + right) / 2;
+            if (nums[mid] == target) {
                 return getInts(nums, mid, target);
-            }else if(nums[mid]>target){
-                return binarySearch(nums,left,mid-1,target);
-            }else{
-                return binarySearch(nums,mid+1,right,target);
+            } else if (nums[mid] > target) {
+                return binarySearch(nums, left, mid - 1, target);
+            } else {
+                return binarySearch(nums, mid + 1, right, target);
             }
 
         }
     }
 
     private int[] getInts(int[] nums, int left, int target) {
-        int[] rtn=new int[2];
-        while (nums[--left]==target){
+        int[] rtn = new int[2];
+        while (nums[--left] == target) {
 
         }
-        rtn[0]=++left;
-        while (nums[++left]==target){
+        rtn[0] = ++left;
+        while (nums[++left] == target) {
 
         }
-        rtn[1]=--left;
+        rtn[1] = --left;
         return rtn;
     }
 }
