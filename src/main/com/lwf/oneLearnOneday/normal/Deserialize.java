@@ -12,55 +12,100 @@ import java.util.Stack;
  */
 public class Deserialize {
     public static void main(String[] args) {
-        System.out.println('0'-0);
-        System.out.println('9'-0);
+        System.out.println('0' - 0);
+        System.out.println('9' - 0);
         new Solution().deserialize("[123,[[]],10,[]]");
     }
-   static class Solution {
+
+    /**
+     * 递归解法，理解起来更简单！
+     */
+    static class dfs {
         public NestedInteger deserialize(String s) {
             char[] chars = s.toCharArray();
-            Stack<NestedInteger> stack =new Stack<>();
+            i=0;
+            return dfs(chars);
+        }
+        Integer i;
+        NestedInteger dfs(char[] chars){
+            if (chars[i]=='['){
+                NestedInteger nestedInteger = new NestedInteger();
+                i++;
+                while (i<chars.length&&chars[i]!=']'){
+                    if (chars[i]==','){
+                        i++;
+                    }else{
+
+                        nestedInteger.add(dfs(chars));
+                    }
+                }
+                if (chars[i]==']') {
+                    i++;
+                }
+                return nestedInteger;
+            }else{
+                int num=0;
+                boolean plus=true;
+                if (chars[i]=='-'){
+                    plus=false;
+                    i++;
+                }
+                while (i<chars.length&& chars[i]>='0'&&chars[i]<='9'){
+                    num=num*10+(chars[i]-'0');
+                    i++;
+                }
+                return new NestedInteger(plus? num:(num*-1));
+            }
+
+        }
+    }
+
+    /**
+     * 栈模拟递归，判断条件和分类要仔细
+     */
+    static class Solution {
+        public NestedInteger deserialize(String s) {
+            char[] chars = s.toCharArray();
+            Stack<NestedInteger> stack = new Stack<>();
             for (int i = 0; i < chars.length; i++) {
-                if (chars[i]=='['){
+                if (chars[i] == '[') {
                     NestedInteger nestedInteger = new NestedInteger();
                     stack.push(nestedInteger);
 
-                }else if (chars[i]==']'){ //对于空list，】拿到list本身，而非空】拿到最后一个元素。
+                } else if (chars[i] == ']') { //对于空list，】拿到list本身，而非空】拿到最后一个元素。
 
                     NestedInteger pop = stack.pop();
 
-                        if (!stack.isEmpty()){
-                            NestedInteger peek = stack.peek();
-                            peek.add(pop);
-                        }else{
-                            stack.push( pop);
-                        }
+                    if (!stack.isEmpty()) {
+                        NestedInteger peek = stack.peek();
+                        peek.add(pop);
+                    } else {
+                        stack.push(pop);
+                    }
 
 
-                }
-                else if (chars[i]==','){ //这里的关键在于逗号不做处理，和直接把数字的放入栈顶，保证栈顶一直是list即可。
+                } else if (chars[i] == ',') { //这里的关键在于逗号不做处理，和直接把数字的放入栈顶，保证栈顶一直是list即可。
 
-                }
-                else { //数字的直接放入list中，栈顶一直会是list
+                } else { //数字的直接放入list中，栈顶一直会是list
                     NestedInteger nestedInteger = new NestedInteger();
-                    int num=0;
-                    boolean plus=true;
+                    int num = 0;
+                    boolean plus = true;
 
-                    if (chars[i]=='-'){
-                        plus=false;
+                    if (chars[i] == '-') {
+                        plus = false;
                         i++;
 
                     }
-                    while (i<chars.length&& chars[i]>='0'&&chars[i]<='9'){
-                        num=(num*10+(chars[i]-'0'));
+                    while (i < chars.length && chars[i] >= '0' && chars[i] <= '9') {
+                        num = (num * 10 + (chars[i] - '0'));
                         i++;
                     }
-                    nestedInteger.setInteger(plus?num:(num*-1));
-                    if (stack.isEmpty()){
+                    nestedInteger.setInteger(plus ? num : (num * -1));
+                    if (stack.isEmpty()) {
                         return nestedInteger;
-                    }else{
+                    } else {
 
-                     stack.peek().add(nestedInteger);
+                        stack.peek().add(nestedInteger);
                         i--;
                     }
                 }
@@ -69,37 +114,39 @@ public class Deserialize {
         }
     }
 
-   static class NestedInteger {
+    static class NestedInteger {
         // Constructor initializes an empty nested list.
-        public NestedInteger(){}
+        public NestedInteger() {
+        }
 
         // Constructor initializes a single integer.
-        public NestedInteger(int value){}
+        public NestedInteger(int value) {
+        }
 
         // @return true if this NestedInteger holds a single integer, rather than a nested list.
-        public boolean isInteger(){
-            return  false;
+        public boolean isInteger() {
+            return false;
         }
 
         // @return the single integer that this NestedInteger holds, if it holds a single integer
         // Return null if this NestedInteger holds a nested list
-        public Integer getInteger(){
+        public Integer getInteger() {
             return null;
         }
 
         // Set this NestedInteger to hold a single integer.
-        public void setInteger(int value){
+        public void setInteger(int value) {
             return;
         }
 
         // Set this NestedInteger to hold a nested list and adds a nested integer to it.
-        public void add(NestedInteger ni){
+        public void add(NestedInteger ni) {
             return;
         }
 
         // @return the nested list that this NestedInteger holds, if it holds a nested list
         // Return empty list if this NestedInteger holds a single integer
-        public List<NestedInteger> getList(){
+        public List<NestedInteger> getList() {
             return null;
         }
     }
