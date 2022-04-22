@@ -2,7 +2,7 @@ package com.lwf.learn.everyday.first.day13;
 
 /**
  * Created with IntelliJ IDEA.
- *
+ * 位运算的优先级不是最高的，与普通计算一致，因此需要注意用括号。
  * @author: liuwenfei14
  * @date: 2022-04-13 10:23
  */
