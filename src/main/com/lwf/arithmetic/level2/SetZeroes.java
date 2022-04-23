@@ -10,6 +10,9 @@ import java.util.Set;
  * @date: 2022-04-23 19:41
  */
 public class SetZeroes {
+    /**
+     * 使用矩阵的首行首列作为存储，同时使用额外的标记来记录首行首列是否包含0，这样就可以当做是常数空间了。。；
+     */
     class test {
         public void setZeroes(int[][] matrix) {
            boolean x=false;
