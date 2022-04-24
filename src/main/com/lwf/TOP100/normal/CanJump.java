@@ -8,6 +8,7 @@ package com.lwf.TOP100.normal;
  * {@link md/normal/55.md}
  */
 public class CanJump {
+
     public boolean canJump(int[] nums) {
         if(nums.length<2) return true;
         int min=1;
