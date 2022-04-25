@@ -10,51 +10,86 @@ public class IncreasingTriplet {
     class Solution {
         /**
          * 两个临时元素保存第一个和第二个，只要存在元素大于第二个，就成立。是递增数列判断的应用
+         *
          * @param nums
          * @return
          */
-        public boolean increasingTriplet1(int[] nums) {
-            int[] min=new int[2];
-            int l=0;
+        public boolean increasingTriplet2(int[] nums) {
+
+            int l = 0;
             for (int i = 0; i < nums.length; i++) {
-                if (l==0){
-                    min[l++]=nums[i];
-                }else{
+                if (l == 0) {
+                    nums[l++] = nums[i];
+                } else {
                     int curN = nums[i];
-                    if (min[l-1]==curN||min[0]==curN){
-                        continue;
-                    }
-                    if (min [0]>curN){
-                        min[0]=curN;
-                    }else if (l==1){
-                       min[l++]=curN;
-                    }else if (min[1]<curN){
-                        return true;
+
+                    if (nums[0] >= curN) {
+                        nums[0] = curN;
+                    } else if (l == 1) {
+                        nums[1]=curN;
+                        l++;
                     }else{
-                        min[1]=curN;
+                        if (nums[1]<curN){
+                            return true;
+                        }else if (nums[1]>curN){
+                            nums[1]=curN;
+                        }
                     }
                 }
             }
             return false;
         }
+
+        /**
+         * 两个临时元素保存第一个和第二个，只要存在元素大于第二个，就成立。是递增数列判断的应用
+         *
+         * @param nums
+         * @return
+         */
+        public boolean increasingTriplet1(int[] nums) {
+            int[] min = new int[2];
+            int l = 0;
+            for (int i = 0; i < nums.length; i++) {
+                if (l == 0) {
+                    min[l++] = nums[i];
+                } else {
+                    int curN = nums[i];
+                    if (min[l - 1] == curN || min[0] == curN) {
+                        continue;
+                    }
+                    if (min[0] > curN) {
+                        min[0] = curN;
+                    } else if (l == 1) {
+                        min[l++] = curN;
+                    } else if (min[1] < curN) {
+                        return true;
+                    } else {
+                        min[1] = curN;
+                    }
+                }
+            }
+            return false;
+        }
+
         /**
          * 辅助空间保存元素i为结尾的数列长度，每次取i+1时，需要与0~i进行比较，找到最长数列。
+         *
          * @param nums
          * @return
          */
         public boolean increasingTriplet(int[] nums) {
 
-            int[] maxL=new int[nums.length];
+            int[] maxL = new int[nums.length];
             for (int i = 0; i < nums.length; i++) {
-                int max=1;
+                int max = 1;
                 for (int j = 0; j < i; j++) {
-                    if (nums[j]<nums[i]) {
-                      max=Math.max(  maxL[j]+1,max);
+                    if (nums[j] < nums[i]) {
+                        max = Math.max(maxL[j] + 1, max);
                     }
                 }
-                if (max<3){
-                    maxL[i]=max;
-                }else{
+                if (max < 3) {
+                    maxL[i] = max;
+                } else {
                     return true;
                 }
             }
@@ -112,12 +147,12 @@ public class IncreasingTriplet {
                         minN[0] = cur;
                     } else {
                         int j = find(minN, 0, maxI - 1, cur);
-                        if (minN[j]==cur){
+                        if (minN[j] == cur) {
                             continue;
-                        }else if (minN[j]>cur){
-                            minN[j]=cur;
-                        }else{
-                            minN[j+1]=cur;
+                        } else if (minN[j] > cur) {
+                            minN[j] = cur;
+                        } else {
+                            minN[j + 1] = cur;
                         }
                     }
                 }
@@ -127,6 +162,7 @@ public class IncreasingTriplet {
 
         /**
          * 二分查找的细节
+         *
          * @param minN
          * @param left
          * @param right
