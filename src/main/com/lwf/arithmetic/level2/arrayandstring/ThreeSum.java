@@ -1,4 +1,4 @@
-package com.lwf.arithmetic.level2;
+package com.lwf.arithmetic.level2.arrayandstring;
 
 import java.util.ArrayList;
 import java.util.Arrays;
