@@ -18,6 +18,14 @@ public class FindKthLargest {
 
         }
 
+        /**
+         * 快速排序的应用，寻找第k个数。因此不需要全部排序，只需要排序一部分即可。
+         * @param nums
+         * @param left
+         * @param right
+         * @param k
+         * @return
+         */
         public int fast(int[] nums, int left, int right, int k) {
             if (left >= right) {
                 return nums[left];
