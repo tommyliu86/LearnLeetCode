@@ -9,7 +9,7 @@ package com.lwf.oneLearnOneday.normal;
  */
 public class SearchRange {
     public static void main(String[] args) {
-        System.out.println(new com.lwf.TOP100.normal.SearchRange().searchRange(new int[]{1, 2, 3}, 2));
+        System.out.println(new SearchRange().searchRange(new int[]{1, 2, 3}, 2));
         System.out.println("hello world");
     }
 

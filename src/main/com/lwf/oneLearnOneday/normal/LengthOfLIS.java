@@ -25,7 +25,7 @@ public class LengthOfLIS {
     }
 
     public static void main(String[] args) {
-        System.out.println(new com.lwf.TOP100.normal.LengthOfLIS().sync2(new int[]{10,9,2,5,3,7,101,18}));
+        System.out.println(new LengthOfLIS().sync2(new int[]{10,9,2,5,3,7,101,18}));
     }
 
     /**

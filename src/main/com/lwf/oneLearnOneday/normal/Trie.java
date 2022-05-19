@@ -8,7 +8,7 @@ import java.util.Map;
  */
 public class Trie {
     public boolean endpoint = false;
-    public Map<Character, com.lwf.TOP100.normal.Trie> children = new HashMap<>();
+    public Map<Character, Trie> children = new HashMap<>();
 
     /**
      * Initialize your data structure here.
@@ -27,7 +27,7 @@ public class Trie {
 
     }
 
-    private void insert(char[] chars, int index, com.lwf.TOP100.normal.Trie curTrie) {
+    private void insert(char[] chars, int index, Trie curTrie) {
         if (index >= chars.length) {
             curTrie.endpoint=true;
             return;
@@ -35,7 +35,7 @@ public class Trie {
 
         if (!curTrie.children.containsKey(chars[index])) {
 
-            curTrie.children.put(chars[index], new com.lwf.TOP100.normal.Trie());
+            curTrie.children.put(chars[index], new Trie());
         }
         insert(chars, index + 1, curTrie.children.get(chars[index]));
     }
@@ -48,7 +48,7 @@ public class Trie {
         return search(word.toCharArray(), 0, this, false);
     }
 
-    private boolean search(char[] chars, int index, com.lwf.TOP100.normal.Trie curTrie, boolean forPrefix) {
+    private boolean search(char[] chars, int index, Trie curTrie, boolean forPrefix) {
         if (index >= chars.length) {
             if (forPrefix) {
                 return true;

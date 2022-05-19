@@ -1,6 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.TreeNode;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -23,10 +22,10 @@ public class BuildTree {
      * @param inorder
      * @return
      */
-    public com.lwf.TOP100.normal.TreeNode buildTree(int[] preorder, int[] inorder) {
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
 
         if (curIndex < preorder.length && inorder != null && inorder.length > 0) {
-            com.lwf.TOP100.normal.TreeNode cur = new com.lwf.TOP100.normal.TreeNode(preorder[curIndex++]);
+            TreeNode cur = new TreeNode(preorder[curIndex++]);
             int index = findIndex(inorder, cur.val);
             int[] left = index < 1 ? null : Arrays.copyOfRange(inorder, 0, index);
             int[] right = index > inorder.length - 2 ? null : Arrays.copyOfRange(inorder, index + 1, inorder.length);
@@ -58,9 +57,9 @@ public class BuildTree {
      * @param right
      * @return
      */
-    com.lwf.TOP100.normal.TreeNode recursive(int[] preorder, int[] curinorder, int left, int right) {
+    TreeNode recursive(int[] preorder, int[] curinorder, int left, int right) {
         if (curIndex < preorder.length  && left<=right) {
-            com.lwf.TOP100.normal.TreeNode cur = new com.lwf.TOP100.normal.TreeNode(preorder[curIndex++]);
+            TreeNode cur = new TreeNode(preorder[curIndex++]);
             int index = findIndexWithMap(curinorder, cur.val);
             cur.left = recursive(preorder,curinorder, left,index-1);
             cur.right = recursive(preorder,curinorder,index+1, right);

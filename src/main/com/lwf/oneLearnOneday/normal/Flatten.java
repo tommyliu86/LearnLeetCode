@@ -1,7 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.TreeNode;
-
 import java.util.Stack;
 
 /**
@@ -9,12 +7,12 @@ import java.util.Stack;
  * time 2019-10-31-23:07
  */
 public class Flatten {
-    public void flatten(com.lwf.TOP100.normal.TreeNode root) {
+    public void flatten(TreeNode root) {
         if (root==null) return;
-        Stack<com.lwf.TOP100.normal.TreeNode> stack = new Stack<>();
+        Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
-        com.lwf.TOP100.normal.TreeNode current = null;
-        com.lwf.TOP100.normal.TreeNode cursor = null;
+        TreeNode current = null;
+        TreeNode cursor = null;
         while (!stack.isEmpty()) {
             current = stack.pop();
             if (cursor == null) {
@@ -24,8 +22,8 @@ public class Flatten {
                 cursor.right = current;
                 cursor = cursor.right;
             }
-            com.lwf.TOP100.normal.TreeNode left = current.left;
-            com.lwf.TOP100.normal.TreeNode right = current.right;
+            TreeNode left = current.left;
+            TreeNode right = current.right;
             if (right != null) stack.push(right);
             if (left != null) {
                 stack.push(left);

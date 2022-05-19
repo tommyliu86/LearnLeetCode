@@ -13,10 +13,10 @@ import java.util.Stack;
  * {@link \Top100\src\md\normal\94.md}
  */
 public class InorderTraversal {
-    public List<Integer> inorderTraversal(com.lwf.TOP100.normal.TreeNode root) {
-        Stack<com.lwf.TOP100.normal.TreeNode> stack=new Stack<>();
+    public List<Integer> inorderTraversal(TreeNode root) {
+        Stack<TreeNode> stack=new Stack<>();
         List<Integer> list=new ArrayList<>();
-        com.lwf.TOP100.normal.TreeNode cur=root;
+        TreeNode cur=root;
         while (!stack.isEmpty()||cur!=null){
             while (cur!=null){
                 stack.add(cur);
@@ -28,12 +28,12 @@ public class InorderTraversal {
         }
         return list;
     }
-    public List<Integer> back(com.lwf.TOP100.normal.TreeNode root){
+    public List<Integer> back(TreeNode root){
         List<Integer> l=new LinkedList<>();
         b(root,l);
         return l;
     }
-    public void b(com.lwf.TOP100.normal.TreeNode node, List<Integer> list){
+    public void b(TreeNode node, List<Integer> list){
         if (node==null){
             return;
         }
@@ -45,7 +45,7 @@ public class InorderTraversal {
 
 class TreeNode {
     int val;
-    com.lwf.TOP100.normal.TreeNode left;
-    com.lwf.TOP100.normal.TreeNode right;
+    TreeNode left;
+    TreeNode right;
     TreeNode(int x) { val = x; }
 }

@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class WordBreak {
     public static void main(String[] args) {
-        System.out.println(new com.lwf.TOP100.normal.WordBreak().wordBreak("catsandog",
+        System.out.println(new WordBreak().wordBreak("catsandog",
                 new ArrayList<>(Arrays.asList("cats", "dog", "sand", "and", "cat"))));
     }
     public boolean wordBreak(String s, List<String> wordDict) {

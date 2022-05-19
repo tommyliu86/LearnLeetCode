@@ -1,17 +1,15 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.TreeNode;
-
 /**
  * Created with IntelliJ IDEA. User: liuwenfei14 Date: 2019-11-29 Time: 09:06
  */
 public class LowestCommonAncestor {
-    public com.lwf.TOP100.normal.TreeNode lowestCommonAncestor(com.lwf.TOP100.normal.TreeNode root, com.lwf.TOP100.normal.TreeNode p, com.lwf.TOP100.normal.TreeNode q) {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         dfs(root,p,q);
         return parent;
     }
-    com.lwf.TOP100.normal.TreeNode parent=null;
-    boolean dfs(com.lwf.TOP100.normal.TreeNode root, com.lwf.TOP100.normal.TreeNode p, com.lwf.TOP100.normal.TreeNode q){
+    TreeNode parent=null;
+    boolean dfs(TreeNode root, TreeNode p, TreeNode q){
         if (root==null) return false;
         boolean left=false;
         boolean right=false;
@@ -29,7 +27,7 @@ public class LowestCommonAncestor {
         }
         return current||left||right;
     }
-    boolean recursive(com.lwf.TOP100.normal.TreeNode root, com.lwf.TOP100.normal.TreeNode p, com.lwf.TOP100.normal.TreeNode q){
+    boolean recursive(TreeNode root, TreeNode p, TreeNode q){
         if (root==null) return false;
         int left=0;
         int right=0;

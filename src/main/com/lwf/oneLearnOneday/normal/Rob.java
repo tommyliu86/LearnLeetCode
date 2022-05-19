@@ -1,16 +1,12 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.TreeNode;
-
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
  * Created with IntelliJ IDEA. User: liuwenfei14 Date: 2019-12-17 Time: 09:42
  */
 public class Rob {
-    public int rob(com.lwf.TOP100.normal.TreeNode root) {
+    public int rob(TreeNode root) {
         int[] rtns=recursive(root);
         return Math.max(rtns[0],rtns[1]);
     }
@@ -22,7 +18,7 @@ public class Rob {
      * @param node
      * @return
      */
-    int[] recursive(com.lwf.TOP100.normal.TreeNode node){
+    int[] recursive(TreeNode node){
         if (node==null){
             return new int[]{0,0};
         }
@@ -35,12 +31,12 @@ public class Rob {
      * 中序遍历，left-mid-right
      * @param root
      */
-    void mid(com.lwf.TOP100.normal.TreeNode root){
-        Stack<com.lwf.TOP100.normal.TreeNode> stack=new Stack<>();
+    void mid(TreeNode root){
+        Stack<TreeNode> stack=new Stack<>();
 
         int token=0;
         int notoken=0;
-        com.lwf.TOP100.normal.TreeNode current=root;
+        TreeNode current=root;
         while (!stack.isEmpty()||current!=null){
             while (current!=null){
                 stack.add(current);
@@ -52,7 +48,7 @@ public class Rob {
         }
     }
 
-    void pre(com.lwf.TOP100.normal.TreeNode root){
+    void pre(TreeNode root){
         if (root!=null){
 
             System.out.println(root.val);
@@ -60,11 +56,11 @@ public class Rob {
             pre(root.right);
         }
     }
-    void  pre1(com.lwf.TOP100.normal.TreeNode root){
-        Stack<com.lwf.TOP100.normal.TreeNode> stack =new Stack<>();
+    void  pre1(TreeNode root){
+        Stack<TreeNode> stack =new Stack<>();
         stack.add(root);
         while (!stack.isEmpty()){
-            com.lwf.TOP100.normal.TreeNode temp=stack.pop();
+            TreeNode temp=stack.pop();
             System.out.println(temp.val);
             stack.add(temp.right);
             stack.add(temp.left);

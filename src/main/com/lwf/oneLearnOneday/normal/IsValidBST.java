@@ -1,15 +1,13 @@
 package com.lwf.oneLearnOneday.normal;
 
 
-import com.lwf.TOP100.normal.TreeNode;
-
 /**
  * author Administrator
  * time 2019-10-29-22:13
  * {@link md/normal/98.md}
  */
 public class IsValidBST {
-    public boolean isValidBST(com.lwf.TOP100.normal.TreeNode root) {
+    public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
         return midOrder(root);
     }
@@ -24,7 +22,7 @@ public class IsValidBST {
      * @param node
      * @return
      */
-    boolean midOrder1(com.lwf.TOP100.normal.TreeNode node) {
+    boolean midOrder1(TreeNode node) {
         if (node==null) return true;
         boolean left= midOrder1(node.left);
         if (!left)return false;
@@ -48,7 +46,7 @@ public class IsValidBST {
      * @param node
      * @return
      */
-    boolean midOrder(com.lwf.TOP100.normal.TreeNode node) {
+    boolean midOrder(TreeNode node) {
         boolean rtn = true;
         if (node.left != null) {
             if (node.left.val < node.val) {
@@ -84,7 +82,7 @@ public class IsValidBST {
      * @param big
      * @return
      */
-    public boolean helper(com.lwf.TOP100.normal.TreeNode node, Integer low, Integer big) {
+    public boolean helper(TreeNode node, Integer low, Integer big) {
         if (node==null) return true;
         int val = node.val;
         if (low != null && val <= low) return false;

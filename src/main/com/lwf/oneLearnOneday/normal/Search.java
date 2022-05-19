@@ -7,7 +7,7 @@ package com.lwf.oneLearnOneday.normal;
  */
 public class Search {
     public static void main(String[] args) {
-        System.out.println(new com.lwf.TOP100.normal.Search().search(new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
+        System.out.println(new Search().search(new int[]{4, 5, 6, 7, 0, 1, 2}, 0));
     }
     public int search(int[] nums, int target) {
         if(nums.length==0) return -1;

@@ -1,9 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.ListNode;
-
-import java.util.List;
-
 /**
  * Created with IntelliJ IDEA. User: liuwenfei14 Date: 2019-11-20 Time: 09:21
  */

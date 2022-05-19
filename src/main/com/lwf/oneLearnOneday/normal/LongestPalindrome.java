@@ -46,7 +46,7 @@ public class LongestPalindrome {
         }
     }
     public static void main(String[] args) {
-        System.out.println(new com.lwf.TOP100.normal.LongestPalindrome().longestPalindrome("babad"));
+        System.out.println(new LongestPalindrome().longestPalindrome("babad"));
     }
     public String longestPalindrome(String s) {
         if (s.length()<2) return s;

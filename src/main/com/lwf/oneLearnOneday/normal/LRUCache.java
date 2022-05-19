@@ -17,7 +17,7 @@ public class LRUCache {
      * @param args
      */
     public static void main(String[] args) {
-        com.lwf.TOP100.normal.LRUCache2 lruCache1 = new com.lwf.TOP100.normal.LRUCache2(2);
+        LRUCache2 lruCache1 = new LRUCache2(2);
         lruCache1.put(1, 1);
         lruCache1.put(2, 2);
         lruCache1.get(1);
@@ -28,7 +28,7 @@ public class LRUCache {
         lruCache1.get(3);
         lruCache1.get(4);
 
-        com.lwf.TOP100.normal.LRUCache2 lruCache2 = new com.lwf.TOP100.normal.LRUCache2(1);
+        LRUCache2 lruCache2 = new LRUCache2(1);
         lruCache2.put(2, 1);
 
         lruCache2.get(2);

@@ -10,7 +10,7 @@ import java.util.*;
 public class GroupAnagrams {
     public static void main(String[] args) {
 
-        System.out.println(new com.lwf.TOP100.normal.GroupAnagrams().groupAnagrams(new String[]{"ins", "sin", "tan", "ate", "nat", "bat"}));
+        System.out.println(new GroupAnagrams().groupAnagrams(new String[]{"ins", "sin", "tan", "ate", "nat", "bat"}));
     }
 
     /**

@@ -1,7 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.lwf.TOP100.normal.ListNode;
-
 import java.util.HashSet;
 import java.util.Set;
 

@@ -46,7 +46,7 @@ public class MaximalSquare {
     public static void main(String[] args) {
         char[][] chars=new char[1][1];
         chars[0]=new char[]{'1'};
-        new com.lwf.TOP100.normal.MaximalSquare().dynamicProgram(chars);
+        new MaximalSquare().dynamicProgram(chars);
     }
 
     /**
