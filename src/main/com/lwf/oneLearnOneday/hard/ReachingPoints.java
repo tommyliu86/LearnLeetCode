@@ -11,7 +11,7 @@ public class ReachingPoints {
      * 反向思路求解，反推
      * 从这些题可以看到，思路和找到核心问题的点非常重要，解题应用的算法是比较简单的，但是一定要找到切入点
      * tx、ty，如果 tx==ty，由于sx、sy！=0，则tx==ty肯定不能是累加上来的，只能是初始状态
-     * tx！=ty时，tx=t[y]+t[x-1]||ty=t[x]+t[y-1] ,考虑极端情况 tx=1，ty=max，则表示。ty=t[y-n]+n*tx,因此
+     * tx！=ty时，tx=SingleNumber[y]+SingleNumber[x-1]||ty=SingleNumber[x]+SingleNumber[y-1] ,考虑极端情况 tx=1，ty=max，则表示。ty=SingleNumber[y-n]+n*tx,因此
      * 算法可以使用mod计算剩余，省略中间的循环！
      */
     class test {
