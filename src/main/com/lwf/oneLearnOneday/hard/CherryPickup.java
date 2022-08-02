@@ -1,7 +1,5 @@
 package com.lwf.oneLearnOneday.hard;
 
-import sun.nio.cs.ext.MacThai;
-
 import java.util.Arrays;
 
 public class CherryPickup {

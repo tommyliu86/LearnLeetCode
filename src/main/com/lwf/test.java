@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created with IntelliJ IDEA.
@@ -13,6 +15,14 @@ import java.util.List;
  */
 public class test {
 
+    public static void main(String args[]) {
+        String str = "03.141";
+        String pattern = "^(([1-9]\\d{0,12})|(0))(.\\d{0,3})?$";
+
+        Pattern r = Pattern.compile(pattern);
+        Matcher m = r.matcher(str);
+        System.out.println(m.matches());
+    }
 
     public class Solution {
         /**

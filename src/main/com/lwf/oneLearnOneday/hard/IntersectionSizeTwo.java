@@ -1,9 +1,6 @@
 package com.lwf.oneLearnOneday.hard;
 
-import jdk.nashorn.internal.ir.IfNode;
-
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class IntersectionSizeTwo {
     /**

@@ -1,9 +1,5 @@
 package com.lwf.oneLearnOneday.hard;
 
-import com.sun.tools.javac.util.Dependencies;
-
-import javax.management.NotificationEmitter;
-import java.lang.annotation.Target;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

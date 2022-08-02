@@ -1,10 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import jdk.nashorn.internal.runtime.JSONFunctions;
-
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  * Created with IntelliJ IDEA.
  * https://leetcode-cn.com/problems/plates-between-candles/

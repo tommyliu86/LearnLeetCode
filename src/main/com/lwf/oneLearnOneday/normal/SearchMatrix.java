@@ -1,12 +1,10 @@
 package com.lwf.oneLearnOneday.normal;
 
-import com.sun.xml.internal.fastinfoset.algorithm.BooleanEncodingAlgorithm;
 
-import java.rmi.MarshalException;
 
 /**
- * Created with IntelliJ IDEA. User: liuwenfei14 Date: 2019-12-04 Time: 09:39
- */
+ * createdWithIntellijIdea.User:Liuwenfei14Date:20191204Time:09:39
+*/
 public class SearchMatrix {
     public static void main(String[] args) {
         new SearchMatrix().searchMatrix(new int[][]{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}},
