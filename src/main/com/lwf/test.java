@@ -22,8 +22,32 @@ public class test {
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(str);
         System.out.println(m.matches());
-    }
 
+        S<Void> ss=new S<>();
+        S s1=ss;
+        s1.setData("123");
+        System.out.println(  ss.toString());
+        System.out.println(  s1.toString());
+    }
+    public static class S<T>{
+        private T data;
+
+        public T getData() {
+            return data;
+        }
+
+        public S<T> setData(T data) {
+            this.data = data;
+            return this;
+        }
+
+        @Override
+        public String toString() {
+            return "S{" +
+                    "data=" + data +
+                    '}';
+        }
+    }
     public class Solution {
         /**
          * 代码中的类名、方法名、参数名已经指定，请勿修改，直接返回方法规定的值即可
