@@ -1,7 +1,5 @@
 package com.lwf.oneLearnOneday.normal;
 
-import jdk.jfr.internal.OldObjectSample;
-
 import java.util.LinkedList;
 import java.util.Queue;
 

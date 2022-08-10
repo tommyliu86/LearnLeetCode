@@ -14,8 +14,15 @@ import java.util.regex.Pattern;
  * @date: 2022-06-10 20:26
  */
 public class test {
+    public static void main(String[] args) {
+        List<Integer> list1=new ArrayList(Arrays.asList(1,2,3));
+        List<Integer> list11=new ArrayList(Arrays.asList(2,3,4));
+        System.out.println(list1.containsAll(list11));
+        list1.removeAll(list11);
+        System.out.println(list1);
 
-    public static void main(String args[]) {
+    }
+    public static void main1(String args[]) {
         String str = "03.141";
         String pattern = "^(([1-9]\\d{0,12})|(0))(.\\d{0,3})?$";
 
