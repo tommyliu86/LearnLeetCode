@@ -34,7 +34,7 @@ public class MaxEqualFreq {
                         mapCount.put(mapKey - 1, preCount);
                     }
                 }
-                if (numMap.size()==1||(mapCount.size()==1&&mapKey==1)) {
+                if (numMap.size() == 1 || (mapCount.size() == 1 && mapKey == 1)) {
                     size = i + 1;
                 } else if (mapCount.size() == 2) {
                     if (mapCount.containsKey(1) && mapCount.get(1) == 1) {
