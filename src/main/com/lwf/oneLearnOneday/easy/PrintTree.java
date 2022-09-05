@@ -18,11 +18,7 @@ public class PrintTree {
      *     }
      * }
      */
-    class Solution {
-        public List<List<String>> printTree(TreeNode root) {
 
-        }
-    }
      public class TreeNode {
          int val;
          TreeNode left;
