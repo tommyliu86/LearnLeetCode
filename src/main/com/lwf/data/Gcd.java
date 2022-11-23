@@ -12,4 +12,14 @@ public class Gcd {
     public int gcd(int x, int y) {
         return y > 0 ? gcd(y, x % y) : x;
     }
+
+    /**
+     * 求最小公倍数，需要计算最大公约数，通过 两个的乘积 /最大公约数计算，
+     * @param x
+     * @param y
+     * @return
+     */
+    public int lcm(int x,int y){
+        return x*y/gcd(x,y);
+    }
 }
