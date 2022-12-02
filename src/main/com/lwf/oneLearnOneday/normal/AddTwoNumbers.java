@@ -7,6 +7,22 @@ package com.lwf.oneLearnOneday.normal;
  */
 public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        int step=0;
+        ListNode root=new ListNode(0);
+        ListNode cursor=root;
+        while (l1!=null||l2!=null||step!=0){
+            int cur=(l1!=null? l1.val:0)+(l2!=null?l2.val:0)+step;
+            step=cur/10;
+            cur%=10;
+            cursor.next=new ListNode(cur);
+            l1=l1!=null? l1.next:null;
+            l2=l2!=null? l2.next:null;
+            cursor=cursor.next;
+
+        }
+        return root.next;
+    }
+    public ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
         int signal = 0;
         int sum = l1.val + l2.val;
         ListNode node = new ListNode(sum % 10);
