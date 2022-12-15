@@ -2,9 +2,29 @@ package com.lwf.oneLearnOneday.easy;
 
 public class MinOperations {
     /**
-     * 直接模拟
+     * 1827. 最少操作使数组递增
      */
     class Solution {
+        public int minOperations(int[] nums) {
+            int ans=0;
+            int pre=nums[0];
+            for (int i = 1; i < nums.length; i++) {
+                int gap = pre + 1 - nums[i];
+                if (gap>0){
+                    ans+=gap;
+                    pre=pre+1;
+                }else{
+                    pre=nums[i];
+                }
+
+            }
+            return ans;
+        }
+    }
+    /**
+     * 直接模拟
+     */
+    class Solution3 {
         public int minOperations(String s) {
             char[] chars = s.toCharArray();
             int first1=0;
