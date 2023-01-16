@@ -1,8 +1,5 @@
 package com.lwf.oneLearnOneday.easy;
 
-import com.lwf.oldtime.NumArray;
-import sun.text.resources.cldr.hi.FormatData_hi;
-
 public class MinMaxGame {
     /**
      * 模拟计算
