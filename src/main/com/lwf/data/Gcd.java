@@ -14,6 +14,21 @@ public class Gcd {
     }
 
     /**
+     * 递推解法比递归解法快 1倍左右。。
+     * @param x
+     * @param y
+     * @return
+     */
+    public int gcd2(int x,int y){
+        while (x!=0){
+            int temp=y%x;
+            y=x;
+            x=temp;
+        }
+        return y;
+    }
+
+    /**
      * 求最小公倍数，需要计算最大公约数，通过 两个的乘积 /最大公约数计算，
      * @param x
      * @param y
