@@ -5,11 +5,7 @@ package com.lwf.offer.one;
  * @date 2023/2/9 13:45
  */
 
-import com.sun.source.tree.Tree;
-
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 
 /**

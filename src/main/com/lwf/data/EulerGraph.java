@@ -26,7 +26,7 @@ public class EulerGraph {
                 n = N; k = K; mod = (int)Math.pow(10, n - 1);
                 dfs(0); //从0点出发
                 //因为直接使用的integer作为节点，因此到最后是没有补零的，需要把最后一个全部为0的补上
-                sb.append("0".repeat(n - 1));
+//                sb.append("0".repeat(n - 1));
                 return sb.toString();
             }
 
