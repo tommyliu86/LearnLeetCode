@@ -1,5 +1,7 @@
 package com.lwf.oneLearnOneday.normal;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -12,6 +14,38 @@ public class LongestWPI {
     }
     static
     class Solution {
+        /**
+         * 前缀和+hash
+         * 为什么在sum<0时，找sum-1就是最远？因为sum从0开始的，所以，sum<0时，sum-1<0, 因sum-2更小，那sum-2的前一个位置就必然是sum-1！！
+         * @param hours
+         * @return
+         */
+        public int longestWPI(int[] hours) {
+            Map<Integer,Integer> index=new HashMap<>();
+            int sum=0;
+            int max=0;
+
+            for (int i = 0; i < hours.length; i++) {
+                sum+=hours[i]>8?1:-1;
+                if (sum>0){
+                    max=i+1;
+                }else {
+                    Integer pre = index.getOrDefault(sum - 1, Integer.MAX_VALUE);
+                    max=Math.max(max,i-pre);
+                }
+                if (!index.containsKey(sum)) {
+                    index.put(sum,i);
+                }
+            }
+            return max;
+        }
+    }
+    class Solution1 {
+        /**
+         * 单调栈+贪心
+         * @param hours
+         * @return
+         */
         public int longestWPI(int[] hours) {
             int[] sums=new int[hours.length+1];
             Stack<Integer> stack=new Stack<>();
@@ -37,7 +71,7 @@ public class LongestWPI {
     /**
      * 双指针+前缀和
      */
-    class Solution1 {
+    class Solution2 {
         public int longestWPI(int[] hours) {
             int[] sums=new int[hours.length+1];
             for (int i = 1; i < sums.length; i++) {
