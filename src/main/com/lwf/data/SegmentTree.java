@@ -15,6 +15,7 @@ public class SegmentTree {
     int n;
     public SegmentTree(int[] nums){
         this.n=nums.length;
+        //线段数标准计算，最大的扩展后节点数量 不会大于4*n
         segment=new int[4*n];
         build(0,nums,0,n-1);
     }
@@ -31,9 +32,11 @@ public class SegmentTree {
             segment[segIndex]=nums[left];
             return;
         }
+        //通过中点划分左右子树
         int mid=(left+right)/2;
         build(segIndex*2+1,nums,left,mid);
         build(segIndex*2+2,nums,mid+1,right);
+        //通过左右子树的值来设置当前节点
         segment[segIndex]=segment[segIndex*2+1]+segment[segIndex*2+2];
     }
 
