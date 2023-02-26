@@ -3,26 +3,6 @@ package com.lwf.week;
 import java.util.*;
 
 public class DoubleWeak98 {
-    class Solution41 {
-        class Seg{
-            int l;
-            int r;
-            int sum;
-            int mark;
-        }
-        TreeMap<Integer, int[]> treeMap =new TreeMap<Integer,int[]>(Comparator.comparingInt(a -> a));
-        int sum=0;
-        public  void update(int l,int r){
-
-            Integer preKey = treeMap.floorKey(l);
-            int[] preInts = treeMap.get(preKey);
-
-        }
-        public long[] handleQuery(int[] nums1, int[] nums2, int[][] queries) {
-
-
-        }
-    }
     class Solution4 {
         public long[] handleQuery(int[] nums1, int[] nums2, int[][] queries) {
             List<Long> ans = new ArrayList<>();
