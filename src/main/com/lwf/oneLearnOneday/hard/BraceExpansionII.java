@@ -33,6 +33,7 @@ public class BraceExpansionII {
                     while (!mark.isEmpty() && mark.peek() != '{') {
                         merge(indexs, mark.pop());
                     }
+                    mark.pop();
                 } else {
 //                    if (i!=0&&(expression.charAt(i-1)=='}'||Character.isLetter( expression.charAt(i-1)))){
                     if (i != 0 && expression.charAt(i - 1) == '}') {
@@ -42,7 +43,7 @@ public class BraceExpansionII {
                     while (j < expression.length() && Character.isLetter(expression.charAt(j))) {
                      j++;
                     }
-                    Set<String> s=new HashSet<>();
+                    Set<String> s=new TreeSet<>();
                     s.add(expression.substring(i,j));
                     indexs.add(s);
                     i=j-1;
@@ -58,10 +59,10 @@ public class BraceExpansionII {
         public Set<String> merge(Stack<Set<String>> in, char c) {
             Set<String> first = in.pop();
             Set<String> sec = in.pop();
-            Set<String> ans = new HashSet<>();
+            Set<String> ans = new TreeSet<>();
             if (c == '*') {
-                for (String a : first) {
-                    for (String b : sec) {
+                for (String a : sec) {
+                    for (String b : first) {
                         ans.add(a + b);
                     }
                 }
