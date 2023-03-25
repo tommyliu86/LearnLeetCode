@@ -21,7 +21,7 @@ public class MergeSimilarItems {
             }
             List<List<Integer>> ans=new ArrayList<>();
             map.forEach((k,v)->{
-                ans.add(new ArrayList<>(List.of(k,v)));
+                ans.add(new ArrayList<>(Arrays.asList(k,v)));
             });
             ans.sort(Comparator.comparing(a->a.get(0)));
             return ans;
@@ -41,14 +41,14 @@ public class MergeSimilarItems {
                 int c1 = i1 < items1.length ? items1[i1][0] : Integer.MAX_VALUE;
                 int c2 = i2 < items2.length ? items2[i2][0] : Integer.MAX_VALUE;
                 if (c1 > c2) {
-                    ans.add(new ArrayList<>(List.of(items2[i2][0], items2[i2][1])));
+                    ans.add(new ArrayList<>(Arrays.asList(items2[i2][0], items2[i2][1])));
                     i2++;
                 } else if (c1 == c2) {
-                    ans.add(new ArrayList<>(List.of(items2[i2][0], items2[i2][1] + items2[i1][1])));
+                    ans.add(new ArrayList<>(Arrays.asList(items2[i2][0], items2[i2][1] + items2[i1][1])));
                     i2++;
                     i1++;
                 } else {
-                    ans.add(new ArrayList<>(List.of(items2[i1][0], items2[i1][1])));
+                    ans.add(new ArrayList<>(Arrays.asList(items2[i1][0], items2[i1][1])));
                     i1++;
                 }
 
