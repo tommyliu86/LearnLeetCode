@@ -26,7 +26,7 @@ public class ThreeSum {
                int j=i+1,k=nums.length-1;
                while (j<k){
                    if (nums[j]+nums[k]==-1*pre){
-                       ans.add(new ArrayList<>(List.of(pre , nums[j],nums[k])));
+                       ans.add(new ArrayList<Integer>(Arrays.asList(pre , nums[j],nums[k])));
                        j++;
                        while (j<k&&nums[j]==nums[j-1]){
                            j++;

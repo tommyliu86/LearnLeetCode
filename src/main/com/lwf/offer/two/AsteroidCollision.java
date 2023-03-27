@@ -7,6 +7,9 @@ import java.util.Stack;
  * @date 2023/3/17 18:28
  */
 public class AsteroidCollision {
+    /**
+     * 用栈来模拟小行星的方向即可
+     */
     class Solution {
         public int[] asteroidCollision(int[] asteroids) {
             Stack<Integer> right = new Stack<>();
@@ -14,19 +17,19 @@ public class AsteroidCollision {
                 if (asteroids[i] > 0) {
                     right.push(asteroids[i]);
                 } else {
-                    if (!right.isEmpty()&& right.peek()<0){
-                        right.push(asteroids[i] );
-                    }else{
-                        while (!right.isEmpty() && right.peek() + asteroids[i] < 0) {
+                    boolean left=true;
+                    while (left&& !right.isEmpty()&&right.peek()>0){
+                        if (right.peek()+asteroids[i]<0) {
                             right.pop();
-                        }
-                        if (!right.isEmpty()) {
-                            if (right.peek()+asteroids[i]==0) {
+                        }else{
+                            if (right.peek()+asteroids[i]==0){
                                 right.pop();
                             }
-                        }else{
-                            right.push(asteroids[i]);
+                            left=false;
                         }
+                    }
+                    if (left){
+                        right.push(asteroids[i]);
                     }
                 }
             }
