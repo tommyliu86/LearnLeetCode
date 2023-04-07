@@ -1,7 +1,5 @@
 package com.lwf.offer.two;
 
-import sun.text.resources.th.FormatData_th;
-
 public class MaximalRectangle {
     public static void main(String[] args) {
         new Solution().maximalRectangle(new char[][]{{'1','1'}});
