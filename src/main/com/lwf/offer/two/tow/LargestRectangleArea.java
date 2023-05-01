@@ -2,28 +2,33 @@ package com.lwf.offer.two.tow;
 
 import java.util.Stack;
 
+/**
+ * @author liuwenfei
+ * @date 2023/4/18 9:23
+ */
 public class LargestRectangleArea {
+    /**
+     * 用栈找左右边界，类似与接雨水的方式。
+     */
     class Solution {
         public int largestRectangleArea(int[] heights) {
             Stack<Integer> indez=new Stack<>();
             int max=0;
             for (int i = 0; i < heights.length; i++) {
                 int height = heights[i];
-                int subMax=height;
-
-                while (!indez.isEmpty()&&heights[indez.peek()]>=height){
-                    indez.pop();
+                while (!indez.isEmpty()&& heights[ indez.peek()]>=height){
+                    Integer pop = indez.pop();
+                    int h=indez.isEmpty()?-1:indez.peek();
+                    max=Math.max(max,heights[pop]*(i-h-1));
                 }
-                subMax=Math.max(subMax,height*(i-(indez.isEmpty()?0: indez.peek())));
-
-                max=Math.max(max,subMax);
-
                 indez.push(i);
-
             }
-            if (!indez.isEmpty()){
-                int h=indez.pop()
+            while (!indez.isEmpty()){
+                Integer pop = indez.pop();
+                int h=indez.isEmpty()?-1:indez.peek();
+                max=Math.max(max,heights[pop]*(heights.length-h-1));
             }
+            return max;
         }
     }
 }

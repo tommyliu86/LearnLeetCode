@@ -1,7 +1,5 @@
 package com.lwf.oneLearnOneday.hard;
 
-import com.sun.org.apache.bcel.internal.generic.NEWARRAY;
-
 import java.util.*;
 
 public class SmallestSufficientTeam {

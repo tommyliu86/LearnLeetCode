@@ -1,8 +1,5 @@
 package com.lwf.oneLearnOneday.hard;
 
-import javax.jnlp.IntegrationService;
-import java.util.Arrays;
-
 public class MergeStones {
     public static void main(String[] args) {
         System.out.println(  new Solution().mergeStones(new int[]{3,5,1,2,6},
