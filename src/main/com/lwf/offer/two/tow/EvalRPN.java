@@ -1,9 +1,5 @@
 package com.lwf.offer.two.tow;
 
-import com.sun.xml.internal.ws.developer.MemberSubmissionAddressing;
-
-import java.util.HashSet;
-import java.util.Set;
 import java.util.Stack;
 
 public class EvalRPN {

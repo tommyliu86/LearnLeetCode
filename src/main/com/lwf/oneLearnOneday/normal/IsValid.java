@@ -1,15 +1,13 @@
 package com.lwf.oneLearnOneday.normal;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author liuwenfei
  * @date 2023/5/4 14:21
  */
 public class IsValid {
+
     /**
      * 栈
      */
