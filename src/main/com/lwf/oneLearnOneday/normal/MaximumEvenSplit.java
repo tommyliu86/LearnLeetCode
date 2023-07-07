@@ -1,5 +1,6 @@
 package com.lwf.oneLearnOneday.normal;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +9,10 @@ import java.util.List;
  * @date 2023/7/6 8:30
  */
 public class MaximumEvenSplit {
+    public static void main(String[] args) {
+        System.out.println( MessageFormat.format("p_name={0}",123));
+        System.out.println( String.format("p_name='%s'","abc"));
+    }
     class Solution {
         public List<Long> maximumEvenSplit(long finalSum) {
             List<Long> ans=new ArrayList<>();
