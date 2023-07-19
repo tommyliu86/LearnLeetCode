@@ -13,7 +13,7 @@ public class MaxAlternatingSum {
      */
     class Solution {
         public long maxAlternatingSum(int[] nums) {
-
+            return 0l;
         }
     }
     /**
