@@ -8,17 +8,47 @@ import java.util.Set;
  * time 2019-11-05-22:46
  */
 public class DetectCycle {
-    public ListNode detectCycle(ListNode head) {
-        if (head == null||head.next==null) return null;
-        ListNode slow = head.next;
-        ListNode fast = head.next.next;
-        while (fast != null && fast.next != null&&slow!=fast) {
-            slow = slow.next;
-            fast = fast.next.next;
+    /**
+     * 找相交的点
+     */
+    public class Solution {
+        public ListNode detectCycle(ListNode head) {
+            if (head==null||head.next==null) return  null;
+            ListNode slow=head.next;
+            ListNode fast=head.next.next;
+            while (fast!=null&&fast.next!=null&&slow!=fast){
+                slow=slow.next;
+                fast=fast.next.next;
+            }
+            if (slow==fast){
+                slow=head;
+                while (fast!=slow){
+                    fast=fast.next;
+                    slow=slow.next;
+                }
+                return fast;
+            }else{
+                return null;
+            }
+
         }
-        if (slow == fast) {
-            ListNode cursor=head;
-            //按照常规思路，获取一个环内点，需要遍历对比head开始的next和环是否是交点
+    }
+
+    /**
+     * 找相交的点
+     */
+    public class Solution1 {
+        public ListNode detectCycle(ListNode head) {
+            if (head == null || head.next == null) return null;
+            ListNode slow = head.next;
+            ListNode fast = head.next.next;
+            while (fast != null && fast.next != null && slow != fast) {
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            if (slow == fast) {
+                ListNode cursor = head;
+                //按照常规思路，获取一个环内点，需要遍历对比head开始的next和环是否是交点
 //            while (slow!=cursor){
 //                do{
 //                    slow=slow.next;
@@ -27,22 +57,33 @@ public class DetectCycle {
 //                if (slow==cursor) return cursor;
 //                cursor=cursor.next;
 //            }
-            while (cursor!=slow){ //利用链表环的相交点为slow*2=fast求解得到环的起始点f的公式！
-                cursor=cursor.next;
-                slow=slow.next  ;
+                while (cursor != slow) { //利用链表环的相交点为slow*2=fast求解得到环的起始点f的公式！
+                    cursor = cursor.next;
+                    slow = slow.next;
+                }
+                return cursor;
             }
-            return cursor;
+            return null;
         }
-        return null;
     }
+
     public ListNode detectCycle1(ListNode head) {
-        Set<ListNode> set=new HashSet<>();
-        ListNode cursor=head;
-        while (!set.contains(cursor)&&cursor!=null){
+        Set<ListNode> set = new HashSet<>();
+        ListNode cursor = head;
+        while (!set.contains(cursor) && cursor != null) {
             set.add(cursor);
-            cursor=cursor.next;
+            cursor = cursor.next;
         }
         return cursor;
     }
 
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
+    }
 }
