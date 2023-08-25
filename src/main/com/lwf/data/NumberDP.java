@@ -3,6 +3,7 @@ package com.lwf.data;
 import java.util.Arrays;
 
 /**
+ * 数位dp，数位DP
  * @author liuwenfei
  * @date 2023/3/20 16:30
  */

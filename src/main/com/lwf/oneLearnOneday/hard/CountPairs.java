@@ -2,12 +2,72 @@ package com.lwf.oneLearnOneday.hard;
 
 import com.lwf.data.Trie;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author liuwenfei
  * @date 2023/1/5 9:30
  */
 public class CountPairs {
+    /**
+     * 二分查找
+     * 1.遍历获取到每个点的边数
+     * 2.排序后，每个query，可以
+     *      1. 从最小开始遍历，每个i，二分查找 query-i 的下标
+     *      2.大于query的i，后面的直接进行阶乘计算
+     *
+     * 3.排序后，使用双指针
+     *      1.双指针遍历，每次考虑的也是单点，不需要二分查找，代码更简单
+     */
     class Solution {
+        public int[] countPairs(int n, int[][] edges, int[] queries) {
+            int[] counts=new int[n+1];
+            Map<Integer,Integer> edgMap=new HashMap<>();
+
+            for (int i = 0; i < edges.length; i++) {
+                for (int i1 : edges[i]) {
+                    counts[i1]++;
+                }
+               int x= Math.min(edges[i][0],edges[i][1]);
+               int y= Math.max(edges[i][0],edges[i][1]);
+               //merge== ++
+                edgMap.merge(x<<16|y,1,Integer::sum);
+            }
+            int[] origC = Arrays.copyOf(counts, counts.length);
+            Arrays.sort(counts);
+            int[] ans=new int[queries.length];
+            for (int i = 0; i < queries.length; i++) {
+                int query = queries[i];
+                int x=1,y=n;
+                while (x<y){
+                    if (counts[x]+counts[y]>query){
+                        ans[i]+=y-x;
+                        y--;
+                    }else{
+                        x++;
+                    }
+                }
+                //计算重复边的情况,我们的ans记录的是数对数量，因此如果边不满足情况，则需要减去这个数对
+                for (Map.Entry<Integer, Integer> entry : edgMap.entrySet()) {
+                    Integer k = entry.getKey();
+                    Integer v = entry.getValue();
+                    int count = origC[k >> 16] + origC[k & ((int) Math.pow(2, 16) - 1)];
+                    if (count > query && count - v <= query) {
+                        ans[i]--;
+                    }
+                }
+
+            }
+            return ans;
+        }
+    }
+    /**
+     * 字典树 01字典树
+     */
+    class Solution1 {
         class BitTrie{
             BitTrie[] children=new BitTrie[2];
             /**
