@@ -1,80 +1,116 @@
 package com.lwf.oneLearnOneday.normal;
 
+import com.lwf.oneLearnOneday.easy.GetLucky;
+
+import javax.swing.text.TabableView;
 import java.util.*;
 
 /**
- * author Administrator
- * time 2019-11-07-22:49
+ * LRU 标准解法，使用双向链表+hash，双向链表用来保存顺序，因为对于链表的删除和插入操作都是 $O(1)$ 级别的，可以满足条件
  */
-public class LRUCache {
-    /**
-     * ["LRUCache","put","put","get","put","get","put","get","get","get"]
-     * [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
-     * <p>
-     * ["LRUCache","put","get","put","get","get"]
-     * [[1],[2,1],[2],[3,2],[2],[3]]
-     *
-     * @param args
-     */
-    public static void main(String[] args) {
-        LRUCache2 lruCache1 = new LRUCache2(2);
-        lruCache1.put(1, 1);
-        lruCache1.put(2, 2);
-        lruCache1.get(1);
-        lruCache1.put(3, 3);
-        lruCache1.get(1);
-        lruCache1.put(4, 4);
-        lruCache1.get(1);
-        lruCache1.get(3);
-        lruCache1.get(4);
+public class LRUCacheSolution {
+    class LRUCache {
+        class Node{
+            Node pre;
+            Node post;
+            int key;
+            int value;
+        }
+        int cap;
+        Map<Integer ,Node> map=new HashMap<Integer, LRUCache.Node>();
+        Node head,tail;
+        public LRUCache(int capacity) {
+           cap=capacity;
+           head=new Node();
+           tail=new Node();
+           head.post=tail;
+           tail.pre=head;
+        }
 
-        LRUCache2 lruCache2 = new LRUCache2(1);
-        lruCache2.put(2, 1);
+        public int get(int key) {
+           if (map.containsKey(key)){
+               Node node = map.get(key);
+               moveLast(node);
+               return map.get(key).value;
+           }else{
+               return -1;
+           }
+        }
 
-        lruCache2.get(2);
-        lruCache2.put(3, 3);
-        lruCache2.get(2);
+        public void put(int key, int value) {
+            if (map.containsKey(key)){
+                Node node = map.get(key);
+                moveLast(node);
+                node.value=value;
+            }else{
+                if (map.size()>=cap){
+                    map.remove((Object)head.post.key);
+                    remove(head.post);
+                }
+                Node node = new Node();
+                node.key=key;
+                node.value=value;
+                add(node);
+                map.put(key,node);
+            }
+        }
 
+        private void moveLast(Node node){
+            remove(node);
+            add(node);
+        }
+        private void remove(Node needRemove){
+            Node pre = needRemove.pre;
+            Node post = needRemove.post;
+            pre.post=post;
+            post.pre=pre;
 
-        lruCache2.get(3);
-        lruCache2.get(4);
-
+        }
+        private void add(Node node){
+            Node pre1 = tail.pre;
+            pre1.post=node;
+            node.pre=pre1;
+            tail.pre=node;
+            node.post=tail;
+        }
     }
 
-    Queue<Integer> keyQueue = new LinkedList<>();
-    Integer capacity;
-    Map<Integer, Integer> map = new HashMap<>();
+    public class LRUCache1 {
 
-    public LRUCache(int capacity) {
-        this.capacity = capacity;
-    }
+        Queue<Integer> keyQueue = new LinkedList<>();
+        Integer capacity;
+        Map<Integer, Integer> map = new HashMap<>();
 
-    public int get(int key) {
-        if (map.containsKey(key)) {
-            keyQueue.remove(key);
+        public LRUCache1(int capacity) {
+            this.capacity = capacity;
+        }
+
+        public int get(int key) {
+            if (map.containsKey(key)) {
+                keyQueue.remove(key);
+                keyQueue.add(key);
+                return map.get(key);
+            } else {
+                return -1;
+            }
+        }
+
+        public void put(int key, int value) {
+            if (map.containsKey(key)) {
+
+                keyQueue.remove(key);
+
+            } else if (keyQueue.size() >= capacity) {
+                int keyNeedRemove = keyQueue.poll();
+                map.remove(keyNeedRemove);
+            }
+
             keyQueue.add(key);
-            return map.get(key);
-        } else {
-            return -1;
-        }
-    }
-
-    public void put(int key, int value) {
-        if (map.containsKey(key)) {
-
-            keyQueue.remove(key);
-
-        } else if (keyQueue.size() >= capacity) {
-            int keyNeedRemove = keyQueue.poll();
-            map.remove(keyNeedRemove);
+            map.put(key, value);
         }
 
-        keyQueue.add(key);
-        map.put(key, value);
     }
-
 }
-
 class LRUCache1 {
     DNode head;
     DNode tail;
@@ -262,3 +298,7 @@ class LRUCache2 {
     }
 
 }
+
+
+
+
