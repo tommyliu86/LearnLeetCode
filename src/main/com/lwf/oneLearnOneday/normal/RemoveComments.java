@@ -20,7 +20,7 @@ public class RemoveComments {
             StringBuilder builder = new StringBuilder();
             while (i < source.length) {
                 String cur = source[i++];
-                cur.charAt()
+
                 if (isBlock){
 
                 }else{
@@ -28,6 +28,7 @@ public class RemoveComments {
                 }
 
             }
+            return null;
         }
     }
 }

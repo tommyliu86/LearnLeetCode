@@ -8,7 +8,27 @@ import java.util.Stack;
  * @author liuwenfei
  * @date 2022/10/21 9:03
  */
+
+
 class StockSpanner {
+    public static void main(String[] args) {
+
+        Deque<Integer> deque=new LinkedList<>();
+        //模拟stack
+        for (int i = 0; i < 5; i++) {
+            deque.push(i);
+        }
+        while (!deque.isEmpty()){
+            System.out.println(deque.pop());
+        }
+        //模拟 queue
+        for (int i = 0; i < 5; i++) {
+            deque.offer(i);
+        }
+        while (!deque.isEmpty()){
+            System.out.println(deque.poll());
+        }
+    }
     Deque<int[]> days = new LinkedList<>();
 
     int times;
