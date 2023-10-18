@@ -4,6 +4,7 @@ package com.lwf.data;
  * https://www.cnblogs.com/dusf/p/kmp.html
  *
  * https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/
+ * leetcode中的这道题的 题解中，很多大神对kmp进行了详细的讲解，学习
  * @author liuwenfei
  * @date 2023/10/18 8:47
  */
