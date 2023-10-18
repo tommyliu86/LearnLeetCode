@@ -2,6 +2,8 @@ package com.lwf.data;
 
 /**
  * https://www.cnblogs.com/dusf/p/kmp.html
+ *
+ * https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/
  * @author liuwenfei
  * @date 2023/10/18 8:47
  */
@@ -50,9 +52,9 @@ public class Kmp {
                 //当前的字符和 上一个字符位置的 前缀串的尾巴相同，也即是前缀字符串会 变长，因此 下一个字符不相同时，可以用的前缀字符串直接+1
                 next[++j]=++k;
             }else{
-                //j处的字符 和 k处的
-                while (k!=-1&& chars[ next[k]]!=chars[j]){
-                    k=next[k];
+                //如果j 和 前缀字符串的尾巴k不相同，则需要 循环查找每个 k的 前一个前缀字符串的尾巴来进行对比，找到j可以匹配到的最大前缀字符串。
+                while ((k=next[k])!=-1&& chars[ k]!=chars[j]){
+
                 }
                 next[++j]=++k;
             }
