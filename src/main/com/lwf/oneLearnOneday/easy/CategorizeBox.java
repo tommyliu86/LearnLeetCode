@@ -5,6 +5,15 @@ package com.lwf.oneLearnOneday.easy;
  * @date 2023/10/20 8:46
  */
 public class CategorizeBox {
+    public static void main(String[] args) {
+        String s="1,2,3,";
+        String[] split = s.split("[,|，]");
+        System.out.println(split.length);
+        for (int i = 0; i < split.length; i++) {
+            System.out.println(split[i]);
+        }
+
+    }
 
     class Solution {
         public String categorizeBox(int length, int width, int height, int mass) {
