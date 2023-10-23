@@ -3,6 +3,12 @@ package com.lwf.week;
 import java.util.*;
 
 public class week368 {
+    /**
+     *  j<i 保证了 肯定可以用 k+1 和 k 组合出 s  ，
+     *  因此我们设有m个k+1 n个k， 则有 m*(k+1)+n*k=s =》 （m+n）*（k+1)=s+n
+     *  这里的 n<=k 成立，反证： n>k的最小数是 k+1 则  变成了 全部都是（k+1）, 与假设矛盾
+     *
+     */
     class solution4 {
         // 把一个数分成 k或k+1个数一组，最少的分组数。 能否分组的决定的计算，使用k，如果能分成k和k+1，则向上取整计算
         public int minK(int s, int k) {
@@ -12,7 +18,7 @@ public class week368 {
             if (j > i) {
                 return -1;
             } else {
-                //加上被除数-1 是向上取整的除法
+                //加上被除数-1 是向上取整的除法 余数 1.没余数，2.有余数 则 +1
                 return (s + k) / (k + 1);
             }
 
