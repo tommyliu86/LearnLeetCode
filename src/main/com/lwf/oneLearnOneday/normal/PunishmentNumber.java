@@ -8,9 +8,7 @@ package com.lwf.oneLearnOneday.normal;
  * @date 2023/10/25 9:04
  */
 public class PunishmentNumber {
-    public static void main(String[] args) {
-        System.out.println(Solution.gt(10 * 10, 10, 0));
-    }
+
 
     /**
      * 回溯 计算不同数字组合的和
@@ -27,7 +25,7 @@ public class PunishmentNumber {
         }
 
         //枚举 把数字进行不同的切分，从尾部进行切分，sub（i，n） 不用继续分，sub(0,i-1) 需要不同的组合。
-        public static boolean gt(int i, int t, int total) {
+        public  boolean gt(int i, int t, int total) {
             if (i == 0) {
                 return t == total;
             }
