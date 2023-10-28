@@ -8,14 +8,19 @@ public class DWeek116 {
     class Solution {
         //dp 动态规划
         public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
+            //初始化dp数据，dp[0]=0，目标是0的子数组长度是0，表示没有
             int[] dp = new int[target + 1];
-            nums.sort(Integer::compareTo);
-            for (int i = 1; i < dp.length; i++) {
-                nums
+            for (int i =1; i < dp.length; i++) {
+                dp[i]=-1000000;
+            }
+
+            //依次遍历数据，然后更新dp记录 所有可能的组合
+            for (int i = 0; i < nums.size(); i++) {
+                Integer integer = nums.get(i);
             }
         }
 
-        public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
+        public int lengthOfLongestSubsequence2(List<Integer> nums, int target) {
             int[] t = new int[target + 1];
             for (int i = 1; i <= target; i++) {
                 t[i] = -99999999;
@@ -28,7 +33,7 @@ public class DWeek116 {
                     tt[j] = t[j];
                 }
                 for (int j = t1; j <= target; j++) {
-                    tt[j] = max(t[j], t[j - t1] + 1);
+                    tt[j] = Math.max(t[j], t[j - t1] + 1);
                 }
                 t = tt;
             }
