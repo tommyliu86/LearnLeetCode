@@ -7,12 +7,10 @@ public class DWeek116 {
 
     class Solution {
         //dp 动态规划
+        // 0-1 背包问题
         public int lengthOfLongestSubsequence(List<Integer> nums, int target) {
             //初始化dp数据，dp[0]=0，目标是0的子数组长度是0，表示没有
-            int[] dp = new int[target + 1];
-            for (int i =1; i < dp.length; i++) {
-                dp[i]=-1000000;
-            }
+            int[][] dp = new int[nums.size()+1][target + 1];
 
             //依次遍历数据，然后更新dp记录 所有可能的组合
             for (int i = 0; i < nums.size(); i++) {
