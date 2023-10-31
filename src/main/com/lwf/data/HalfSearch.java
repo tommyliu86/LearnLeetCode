@@ -5,6 +5,8 @@ package com.lwf.data;
  * 二分查找，在旋转数组的这种查找中，注意和左节点比较、右节点比较是由区别的
  * 可能不存在的值的二分查找，注意需要进行l==r时的判断。
  * 二分查找时，注意思路，1.剩下的是什么数据，2.排除的是什么数据
+ *   * 二分查找 灵神写法
+ *      * https://leetcode.cn/problems/h-index-ii/solutions/2504326/tu-jie-yi-tu-zhang-wo-er-fen-da-an-si-ch-d15k/?envType=daily-question&envId=2023-10-31
  * @author: liuwenfei14
  * @date: 2022-04-24 21:18
  */
