@@ -16,6 +16,7 @@ public class DWeek116 {
             for (int i = 0; i < nums.size(); i++) {
                 Integer integer = nums.get(i);
             }
+            return 0;
         }
 
         public int lengthOfLongestSubsequence2(List<Integer> nums, int target) {
