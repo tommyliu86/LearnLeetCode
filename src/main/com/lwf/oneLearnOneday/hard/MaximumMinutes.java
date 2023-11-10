@@ -44,7 +44,7 @@ public class MaximumMinutes {
             }
             return j>=m*n?1000_000_000:j;
         }
-        //这里的边界条件考虑：到达安全点的时间是5分钟，火也是5分钟烧起来，那是安全还是不安全。。。在路径上，是不安全的，在安全屋是安全的？
+        //这里的边界条件考虑：到达安全点的时间是5分钟，火也是5分钟烧起来，那是安全还是不安全。。。在路径上，是不安全的，在安全屋是安全的
         //这里可以考虑换一种方法判断着火时间
         public boolean walk(int[][] times, int[][] grid, int t) {
             Queue<int[]> queue = new LinkedList<>();
