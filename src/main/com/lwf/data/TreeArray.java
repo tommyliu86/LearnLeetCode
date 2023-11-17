@@ -1,8 +1,12 @@
 package com.lwf.data;
 
 /**
+ * 灵神的树状数组的题解
+ * https://leetcode.cn/problems/range-sum-query-mutable/solutions/2524481/dai-ni-fa-ming-shu-zhuang-shu-zu-fu-shu-lyfll/?envType=daily-question&envId=2023-11-01
  * Created with IntelliJ IDEA.
  * 树状数组，存储使用数组，模拟构建出一颗树的结构，主要用来解决区间求和和连续更新数据的算法问题。
+ * 把整个数组按照二进制的位数进行分隔，通过这样的分隔，可以使用某一段某一段的值，通过加减法来实现所有区间【i,j】的和的计算
+ *
  * tree(i)=A(i-lowbit(i)+1)+A(i-lowbit(i)+2)...+A(i-lowbit(i)+i)
  * tree(i)=i-lowbit(i) ~~i 的元素和
  * @author: liuwenfei14
@@ -24,6 +28,7 @@ public class TreeArray {
 
     /**
      * index x的父节点步长，也是当前节点包含元素的步长。
+     * 位运算，找到最近的一个高位的二进制，，比如 101000 -》100111 -》 1111 -》1000
      * @param x
      * @return
      */
@@ -41,7 +46,9 @@ public class TreeArray {
             tree[i]+=val;
         }
     }
+
     public void update(int index,int val){
+        //树状数组使用的是从1开始的下标，因此这里的index需要+1，直接更新对应节点的值，通过add，可以从底向上直接到最后的节点
         add(index+1,val-nums[index]);
         nums[index]=val;
     }
