@@ -6,9 +6,43 @@ package com.lwf.oneLearnOneday.normal;
  */
 public class MaxSubArray {
     /**
-     * 双指针，保留的是前缀和，然后非空的话，直接记录一次所有元素的比较即可
+     * 动态规划 简化dp,不使用数组，直接使用常数空间
      */
     class Solution {
+        public int maxSubArray(int[] nums) {
+
+            int max=Integer.MIN_VALUE,dp=0;
+            for (int i = 0; i < nums.length; i++) {
+                dp+=nums[i];
+                max=Math.max(dp,max);
+                if (dp<0){
+                    dp=0;
+                }
+            }
+            return max;
+        }
+    }
+    /**
+     * DP 动态规划  状态转移方程  f[i]= f[i-1]+n[i]  / n[i]  /f[i-1]
+     *  1. 选当前  ，则分为两种情况，前缀和加上和不加上
+     *  2.不选当前，则最大和是 f[i-1]
+     */
+    class Solution2 {
+        public int maxSubArray(int[] nums) {
+            int[] dp=new int[nums.length+1];
+            dp[0]=-100001;
+            int max=Integer.MIN_VALUE;
+            for (int i = 0; i < nums.length; i++) {
+                dp[i+1]=Math.max(nums[i],dp[i]+nums[i]);
+                max=Math.max(max,Math.max(dp[i] ,dp[i+1]));
+            }
+            return max;
+        }
+    }
+    /**
+     * 双指针，保留的是前缀和，然后非空的话，直接记录一次所有元素的比较即可
+     */
+    class Solution1 {
         public int maxSubArray(int[] nums) {
             int max=Integer.MIN_VALUE; // 初始化最大值为最小整数，确保能够比较数组中的任意值
             int i=0,j=0,sum=0; // 初始化指针i、j以及和sum
