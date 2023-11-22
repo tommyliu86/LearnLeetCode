@@ -13,9 +13,54 @@ import java.util.TreeSet;
  */
 public class FindTheCity {
     /**
-     * Dijkstra 算法 构建一个矩阵表示图，然后查找每个点和其他所有点的最小距离，然后再进行计算每个点的符合条件的情况
+     * floyd 算法，通过dp 来直接找到所有的i，j的二位数组
      */
     class Solution {
+        public int findTheCity(int n, int[][] edges, int distanceThreshold) {
+            int[][] w=new int[n][n];
+            for (int i = 0; i < w.length; i++) {
+                Arrays.fill(w[i],Integer.MAX_VALUE/2);
+            }
+            for (int[] edge : edges) {
+                w[edge[0]][edge[1]]=edge[2];
+                w[edge[1]][edge[0]]=edge[2];
+            }
+            int[][] floyd = floyd(w);
+            int ans=-1;
+            int min=Integer.MAX_VALUE;
+            for (int i = 0; i < n; i++) {
+                int count=0;
+                for (int j = 0; j < n; j++) {
+                    if (i!=j&&floyd[i][j]<=distanceThreshold)
+                        count++;
+                }
+                if (min>=count){
+                    ans=i;
+                    min=count;
+                }
+            }
+            return ans;
+        }
+
+        public int[][] floyd(int[][] graph){
+            int n = graph.length;
+            int[][][] ans=new int[n+1][n][n];
+            ans[0]=graph;
+            for (int k = 0; k < n; k++) {
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < n; j++) {
+                        ans[k+1][i][j]=Math.min(ans[k][i][j],ans[k][i][k]+ans[k][k][j]);
+                    }
+                }
+            }
+            return ans[n];
+        }
+    }
+
+    /**
+     * Dijkstra 算法 构建一个矩阵表示图，然后查找每个点和其他所有点的最小距离，然后再进行计算每个点的符合条件的情况
+     */
+    class Solution1 {
         public int findTheCity(int n, int[][] edges, int distanceThreshold) {
 
             int[][] matrix = new int[n][n];
@@ -27,20 +72,20 @@ public class FindTheCity {
                 matrix[edge[0]][edge[1]] = edge[2];
                 matrix[edge[1]][edge[0]] = edge[2];
             }
-            int min =Integer.MAX_VALUE;
-            SortedSet<Integer> sortedSet=new TreeSet<>();
+            int min = Integer.MAX_VALUE;
+            SortedSet<Integer> sortedSet = new TreeSet<>();
             for (int i = 0; i < n; i++) {
                 int[] dis = dijkstra(matrix, i);
-                int count=0;
+                int count = 0;
                 for (int j = 0; j < dis.length; j++) {
-                    if (dis[j]<=distanceThreshold)
+                    if (dis[j] <= distanceThreshold)
                         count++;
                 }
-                if (min>count){
-                    min=count;
+                if (min > count) {
+                    min = count;
                     sortedSet.clear();
                     sortedSet.add(i);
-                }else if (min==count){
+                } else if (min == count) {
                     sortedSet.add(i);
                 }
             }

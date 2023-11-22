@@ -58,6 +58,7 @@ public class MaximumSumQueries {
                     }
 
                 }
+                //二分查找结果中的y
                 int k = binarySearch(stack, y);
                 if (k < stack.size()) {
                     ans[index] = stack.get(k)[1];
