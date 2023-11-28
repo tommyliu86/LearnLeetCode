@@ -4,9 +4,27 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Created with IntelliJ IDEA. User: liuwenfei14 Date: 2019-12-10 Time: 09:33
+ * 279. 完全平方数
  */
 public class NumSquares {
+    /**
+     * dp 动态规划，每一个数都可以用完全平方数的和表示，最差结果是都是1，
+     * 因此我们可以发现，如果一个数i，找最少的完全平方组合，则i可以分解成（a+b） 我们变成了找a和b的问题，考虑我们可以把a==完全平方数，因此我们可以通过
+     * 枚举所有的小于 i的完全平方数来找到b的最少组合，也就是状态转移方程
+     */
+    class Solution {
+        public int numSquares(int n) {
+            int[] counts=new int[n+1];
+            for (int i = 1; i <= n; i++) {
+                int cur=i;
+                for (int j = 1; j*j <= i; j++) {
+                    cur=Math.min(cur,1+counts[i-j*j]);
+                }
+                counts[i]=cur;
+            }
+            return counts[n];
+        }
+    }
     public int numSquares(int n) {
         counts=new int[n+1];
         return  normal(n);
