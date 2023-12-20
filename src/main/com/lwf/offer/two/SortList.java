@@ -32,11 +32,43 @@ public class SortList {
     class Solution {
 
         public ListNode sortList(ListNode head) {
+            if (head == null || head.next == null) {
+                return head;
+            }
+            //使用快慢指针，找到链表的中点
+            ListNode slow = head, fast = head, pre = slow;
+            while (fast != null && fast.next != null) {
+                pre = slow;
+                slow = slow.next;
+                fast = fast.next.next;
+            }
+            ListNode second = sortList(pre.next);
+            pre.next = null;
+            head = sortList(head);
+            return merge(head, second);
+
+        }
+
+        private ListNode merge(ListNode first, ListNode second) {
+            ListNode newHead = new ListNode();
+            ListNode cursor = newHead;
+            while (first != null && second != null) {
+                if (first.val > second.val) {
+                    cursor.next = second;
+                    second = second.next;
+                } else {
+                    cursor.next = first;
+                    first = first.next;
+                }
+                cursor = cursor.next;
+            }
+            cursor.next = first != null ? first : second;
+            return newHead.next;
         }
     }
 
     /**
-     * 链表递归排序，直接遍历会导致超时
+     * 链表递归排序，直接遍历会导致超时，时间复杂度最差是 n*n
      */
     class Solution1 {
 
