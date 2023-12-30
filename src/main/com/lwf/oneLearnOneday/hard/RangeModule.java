@@ -4,12 +4,18 @@ import java.util.Map;
 import java.util.TreeMap;
 
 /**
+ * 715. Range 模块
+ * https://leetcode.cn/problems/range-module/?envType=daily-question&envId=2023-11-12
  * Created with IntelliJ IDEA.
  *
  * @author: liuwenfei14
  * @date: 2022-06-20 09:53
  */
 public class RangeModule {
+    /**
+     * 有序集合，且需要可以查询 floor 和higher
+     * 使用 treeMap 有序map进行区间拆分。。。
+     */
     TreeMap<Integer,Integer> map;
     public RangeModule() {
         map=new TreeMap<>(Integer::compareTo);
