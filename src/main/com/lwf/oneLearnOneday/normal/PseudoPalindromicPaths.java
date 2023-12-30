@@ -8,26 +8,26 @@ public class PseudoPalindromicPaths {
      * 前序遍历+位运算， 使用位来保存1到9
      */
     class Solution {
-        public int pseudoPalindromicPaths(TreeNode root) {
-            front(root,0);
-            return count;
-        }
-        int count=0;
-        public void front(TreeNode node,int bit){
-            if (node==null)return;
-            bit=bit^(1<<node.val);
-            //判断
-            if (node.left==null&&node.right==null){
-                if (check(list)){
-                    count++;
-                }
-            }else{
-                front(node.left,list);
-                front(node.right,list);
-
-            }
-            list[node.val]--;
-        }
+//        public int pseudoPalindromicPaths(TreeNode root) {
+//            front(root,0);
+//            return count;
+//        }
+//        int count=0;
+//        public void front(TreeNode node,int bit){
+//            if (node==null)return;
+//            bit=bit^(1<<node.val);
+//            //判断
+//            if (node.left==null&&node.right==null){
+//                if (check(list)){
+//                    count++;
+//                }
+//            }else{
+//                front(node.left,list);
+//                front(node.right,list);
+//
+//            }
+//            list[node.val]--;
+//        }
         public boolean check(int[] list){
             int ans=0;
             for (int i = 0; i < list.length; i++) {
