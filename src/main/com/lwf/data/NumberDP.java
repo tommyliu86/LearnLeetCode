@@ -4,6 +4,8 @@ import java.util.Arrays;
 
 /**
  * 数位dp，数位DP
+ * 灵神题解模板
+ * https://leetcode.cn/problems/count-special-integers/solutions/1746956/shu-wei-dp-mo-ban-by-endlesscheng-xtgx/
  * @author liuwenfei
  * @date 2023/3/20 16:30
  */
