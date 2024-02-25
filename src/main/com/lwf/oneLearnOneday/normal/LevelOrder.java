@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * 429. N 叉树的层序遍历
  * Created with IntelliJ IDEA.
  *
  * @author: liuwenfei14
@@ -29,7 +30,29 @@ public class LevelOrder {
         }
     }
 
+    /**
+     * 589. N 叉树的前序遍历
+     * 递归非常简单，迭代则需要考虑如何构建栈结构
+     */
     class Solution {
+        List<Integer> list=new ArrayList<>();
+        public List<Integer> preorder(Node root) {
+            if (root==null)
+                return list;
+
+            list.add(root.val);
+            for (Node child : root.children) {
+                preorder(child);
+            }
+            return list;
+
+        }
+
+    }
+    /**
+     * 429. N 叉树的层序遍历
+     */
+    class SolutionLevelOrder {
         public List<List<Integer>> levelOrder(Node root) {
 
             List<List<Integer>> rtn = new ArrayList<>();
@@ -37,14 +60,14 @@ public class LevelOrder {
                 return rtn;
             }
             Queue<Node> queue = new LinkedList<>();
-            ((LinkedList<Node>) queue).add(root);
+            queue.offer(root);
             while (!queue.isEmpty()) {
                 List<Integer> list = new ArrayList<>();
                 int size = queue.size();
                 for (int i = 0; i < size; i++) {
                     Node poll = queue.poll();
                     list.add(poll.val);
-                    ((LinkedList<Node>) queue).addAll(poll.children);
+                    queue.addAll(poll.children);
                 }
                 rtn.add(list);
             }
