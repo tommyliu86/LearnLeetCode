@@ -9,7 +9,7 @@ import java.util.*;
  * @date: 2024/2/27-8:50
  */
 public class CountPaths {
-    class Solution {
+   static class Solution {
         private final static int MX = (int) 1e5;
         private final static boolean[] numbers = new boolean[MX + 1]; // 质数=false 非质数=true
 

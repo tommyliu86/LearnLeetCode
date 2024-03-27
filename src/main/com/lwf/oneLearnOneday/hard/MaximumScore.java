@@ -21,7 +21,7 @@ public class MaximumScore {
         public int maximumScore(int[] nums, int k) {
             Deque<Integer> deque=new LinkedList<>();
             int max=0;
-
+            return 0;
         }
     }
 }

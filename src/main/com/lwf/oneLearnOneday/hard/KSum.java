@@ -8,7 +8,7 @@ package com.lwf.oneLearnOneday.hard;
 public class KSum {
     class Solution {
         public long kSum(int[] nums, int k) {
-
+        return 0l;
         }
     }
 }
