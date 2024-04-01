@@ -11,31 +11,44 @@ import java.util.Stack;
 public class IsValidSerialization {
     class Solution {
         public boolean isValidSerialization(String preorder) {
-           //模拟前序遍历的过程，这里我们用栈来模拟
-           //使用栈模拟前序遍历
-            Stack<String> stack = new Stack<>();
             String[] split = preorder.split(",");
-            stack.push(split[0]);
-            int i=1;
-            while (i<split.length) {
-                //如果栈位空，但i没有遍历完成，则表示不是一个合法的二叉树
-                if (stack.isEmpty()) {
+            //模拟前序遍历的过程，这里我们用栈来模拟
+            //校验的方法类似于进行后序遍历，需要进行验证
+            Stack<Integer> stack = new Stack<>();
+
+            int i = 0;
+            while (i < split.length) {
+                //第一个节点
+                if (stack.isEmpty() && i != 0) {
                     return false;
                 }
                 //左节点入栈
-                while (i<split.length && !split[i].equals("#")) {
-                    stack.push(split[i++]);
+                while (i < split.length && !split[i].equals("#")) {
+                    stack.push(2);
+                    i++;
                 }
-                //左节点找到底
-                if (i==split.length ) {
-                    return true;
+                if (i == split.length) {
+                    continue;
                 }
-                //否则表示左节点遍历到最后了
-                stack.push(split[i]);
-                stack.push("#");
-                i++;
-            }
+                //遇到#号，则处理父节点节点
+                if (split[i].equals("#")) {
+                    i++;
+                    if (stack.isEmpty()) {
+                        continue;
+                    }
+                    Integer pop = stack.pop();
+                    //表示这个子树已经都访问过了，就弹出了，下一个遍历到的节点就应该是父节点的右树的开始
+                    while (!stack.isEmpty() && pop == 1) {
+                        pop = stack.pop();
+                    }
+                    if (pop == 2) {
+                        stack.push(pop - 1);
+                    }
 
+                }
+
+            }
+            return stack.isEmpty();
         }
 
     }
