@@ -59,6 +59,12 @@ class TreeAncestor {
              node=parents[node][k-1];
              k--;
          }
+
+
+
+
+         //todo
+        return 0;
     }
 
 }

@@ -14,7 +14,7 @@ public class FirstDayBeenInAllRooms {
      * f（i）=sum（f（next）+。。。+f（i-1））+2
      */
     class Solution {
-        static int mod=1000_000_007;
+         int mod=1000_000_007;
         public int firstDayBeenInAllRooms(int[] nextVisit) {
             int n = nextVisit.length;
             //每个节点从奇数走一轮回来的天数

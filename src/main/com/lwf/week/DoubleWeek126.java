@@ -92,7 +92,7 @@ public class DoubleWeek126 {
         }
 
     }
-    class Solution3 {
+    class Solution4 {
         /**
          * 贪心，
          * 贪心不行，如果用dp，则空间是否够？
@@ -136,7 +136,7 @@ public class DoubleWeek126 {
         }
         public int ccc(int[] count,int[] adds,int[] pres,char[] chars,int i){
               int sum=0;
-
+            return 0;
         }
 
     }
