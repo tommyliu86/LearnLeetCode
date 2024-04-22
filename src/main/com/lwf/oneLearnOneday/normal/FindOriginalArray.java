@@ -11,6 +11,9 @@ import java.util.Map;
  * @date: 2024/4/18-8:38
  */
 public class FindOriginalArray {
+    public static void main(String[] args) {
+        System.out.println("123".replace("|", "_"));
+    }
     /**
      * hash表，进行一次遍历，使用hash来进行计数
      */
