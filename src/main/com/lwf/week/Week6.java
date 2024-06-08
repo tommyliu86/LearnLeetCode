@@ -3,6 +3,8 @@ package com.lwf.week;
 
 import java.util.*;
 
+import static java.util.Arrays.*;
+
 /**
  * @author liuwenfei
  * @date 2022/10/29 22:36
@@ -14,11 +16,11 @@ public class Week6 {
  static    class Solution {
         public int[] secondGreaterElement(int[] nums) {
             if (nums.length<=2){
-               Arrays.fill(nums,-1);
+               fill(nums,-1);
                return nums;
             }
             int[] first=new int[nums.length];
-            Arrays.fill(first,-1);
+            fill(first,-1);
             Stack<Integer> firStack=new Stack<>();
             Stack<Integer> secStack=new Stack<>();
 
