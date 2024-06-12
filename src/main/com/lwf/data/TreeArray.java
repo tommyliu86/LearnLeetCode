@@ -36,6 +36,24 @@ public class TreeArray {
         return x&(x^(x-1));
     }
 
+    public static void main(String[] args) {
+        //1.找最低位的元素。也就是二进制表示中从低到高依次找到每个位置
+        //lowbit ,
+        // 1.通过i&-i 直接找到最低位元素，因为 -i 使用的是二进制补码表示，是把所有的位都取反，然后+1得到。
+        //  这时，除了最低位的元素到末尾与i相同，其他位都不同
+        // 2.通过 i&(i^(i-1)), i^(i-1),可以直接获取到最低位的元素往后都是1的一个数字，这个数从最低位元素开始，往后都是1，比如 1000^(1000 -1)=1111
+        // 因此，通过这个计算，可以获取到最低位的lowbit
+        int i=9;
+        while (i>0){
+            System.out.println(i&-i);
+            System.out.println(i&(i^( i-1)));
+            i&=i-1;
+        }
+
+        //i&（i-1）可以逐个位置去除最低位的lowbit
+
+    }
+
     /**
      * 添加和更新tree中的index对应的值的方法。也可以用来构建tree
      * @param index
